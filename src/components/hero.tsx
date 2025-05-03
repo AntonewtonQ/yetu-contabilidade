@@ -1,74 +1,131 @@
 "use client";
 
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
+import { Menu } from "lucide-react";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+} from "@/components/ui/carousel";
 import Image from "next/image";
+import Autoplay from "embla-carousel-autoplay";
 
-export const HeroSection = () => {
-  const slides = [
-    {
-      title: "Aprender é crescer",
-      subtitle: "Domine a contabilidade com o Yetu!",
-      image: "/images/slide1.jpg",
-    },
-    {
-      title: "Seu futuro financeiro começa hoje",
-      subtitle: "Com Yetu Contabilidade você vai mais longe!",
-      image: "/images/slide2.jpg",
-    },
-    {
-      title: "Quiz, vídeos e aulas interativas",
-      subtitle: "Tudo o que você precisa em um só lugar!",
-      image: "/images/slide3.jpg",
-    },
-  ];
+const backgrounds = [
+  "/images/hero1.jpg",
+  "/images/hero2.jpg",
+  "/images/hero3.jpg",
+  "/images/hero4.jpg",
+];
+
+export default function HeroWithHeader() {
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <section className="flex flex-col items-center justify-center text-center py-20 bg-yellow-400 text-black">
-      <Swiper
-        loop={true}
-        autoplay={{ delay: 3000 }}
-        className="w-full max-w-6xl"
+    <section className="relative h-screen overflow-hidden">
+      {/* Carousel de fundo */}
+      <Carousel
+        plugins={[
+          Autoplay({
+            delay: 2000,
+          }),
+        ]}
+        className="absolute inset-0 z-0"
       >
-        {slides.map((slide, index) => (
-          <SwiperSlide key={index}>
-            <div className="relative w-full h-[500px] flex flex-col items-center justify-center text-center">
+        <CarouselContent>
+          {backgrounds.map((src, idx) => (
+            <CarouselItem key={idx} className="h-screen w-full relative">
               <Image
-                src={slide.image}
-                alt={slide.title}
+                src={src}
+                alt={`Fundo ${idx + 1}`}
                 fill
-                className="object-cover opacity-60"
+                priority
+                className="object-cover"
               />
-              <div className="relative z-10">
-                <h1 className="text-4xl font-bold mb-4 text-black">
-                  {slide.title}
-                </h1>
-                <p className="text-lg mb-6 text-black">{slide.subtitle}</p>
-                <div className="flex gap-4 justify-center">
-                  <Link href="/cadastro">
-                    <Button className="bg-black text-yellow-400 hover:bg-gray-800">
-                      Cadastre-se
-                    </Button>
-                  </Link>
-                  <Link href="#produtos">
-                    <Button
-                      variant="outline"
-                      className="border-black text-black"
-                    >
-                      Conheça mais
-                    </Button>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
+              <div className="absolute inset-0 bg-black opacity-60" />
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+      </Carousel>
+
+      {/* Header */}
+      <header className="absolute top-0 left-0 w-full z-50">
+        <div className="max-w-7xl mx-auto px-6 md:px-16 py-4 flex items-center justify-between">
+          <Link href="/" className="text-2xl font-bold text-white">
+            Yetu<span className="text-yellow-400">.</span>Contabilidade
+          </Link>
+
+          <nav className="hidden md:flex space-x-8 text-white font-medium">
+            <Link href="/" className="hover:text-yellow-300 transition">
+              Sobre
+            </Link>
+            <Link href="/" className="hover:text-yellow-300 transition">
+              Serviços
+            </Link>
+            <Link href="/" className="hover:text-yellow-300 transition">
+              Cursos
+            </Link>
+            <Link href="/" className="hover:text-yellow-300 transition">
+              Contato
+            </Link>
+          </nav>
+
+          <div className="hidden md:block">
+            <Link href="/login">
+              <Button className="hover:bg-yellow-400 hover:text-black">
+                Entrar
+              </Button>
+            </Link>
+          </div>
+
+          <div className="md:hidden">
+            <Menu className="text-white" onClick={() => setIsOpen(!isOpen)} />
+          </div>
+        </div>
+
+        {isOpen && (
+          <div className="md:hidden bg-yellow-300 px-6 py-4 space-y-4">
+            <Link href="#sobre" className="block text-black">
+              Sobre
+            </Link>
+            <Link href="#servicos" className="block text-black">
+              Serviços
+            </Link>
+            <Link href="#cursos" className="block text-black">
+              Cursos
+            </Link>
+            <Link href="#contato" className="block text-black">
+              Contato
+            </Link>
+            <Link href="/login" className="block text-black">
+              Entrar
+            </Link>
+          </div>
+        )}
+      </header>
+
+      {/* Hero Text */}
+      <div className="relative z-20 flex flex-col items-center justify-center h-full text-center px-4">
+        <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
+          Contabilidade feita <br className="hidden md:block" /> para Angola
+        </h1>
+        <p className="text-lg md:text-xl text-gray-100 max-w-2xl mb-8">
+          Aprende do básico ao avançado com conteúdo 100% adaptado à realidade
+          contábil angolana.
+        </p>
+        <div className="flex gap-4">
+          <Button
+            asChild
+            className="bg-yellow-400 text-black font-semibold hover:bg-yellow-300 px-6 py-4 text-lg"
+          >
+            <Link href="#sobre">Saiba Mais</Link>
+          </Button>
+          <Button asChild variant="outline" className="px-6 py-4 text-lg">
+            <Link href="#cursos">Explorar Cursos</Link>
+          </Button>
+        </div>
+      </div>
     </section>
   );
-};
-
-export default HeroSection;
+}
