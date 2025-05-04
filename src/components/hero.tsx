@@ -57,17 +57,14 @@ export default function HeroWithHeader() {
           </Link>
 
           <nav className="hidden md:flex space-x-8 text-white font-medium">
-            <Link href="/" className="hover:text-yellow-300 transition">
+            <Link href="#" className="hover:text-yellow-300 transition">
               Sobre
             </Link>
-            <Link href="/" className="hover:text-yellow-300 transition">
+            <Link href="#" className="hover:text-yellow-300 transition">
               Serviços
             </Link>
-            <Link href="/" className="hover:text-yellow-300 transition">
-              Cursos
-            </Link>
-            <Link href="/" className="hover:text-yellow-300 transition">
-              Contato
+            <Link href="/jogo" className="hover:text-yellow-300 transition">
+              Quiz
             </Link>
           </nav>
 
@@ -92,11 +89,9 @@ export default function HeroWithHeader() {
             <Link href="#servicos" className="block text-black">
               Serviços
             </Link>
-            <Link href="#cursos" className="block text-black">
-              Cursos
-            </Link>
-            <Link href="#contato" className="block text-black">
-              Contato
+
+            <Link href="/jogo" className="hover:text-yellow-300 transition">
+              Quiz
             </Link>
             <Link href="/login" className="block text-black">
               Entrar
