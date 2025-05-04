@@ -21,6 +21,8 @@ export default function JogoPage() {
   const [tentativas, setTentativas] = useState(0);
   const [pontuacao, setPontuacao] = useState(0);
   const [mostrarExplicacao, setMostrarExplicacao] = useState(false);
+  // Estado
+  const [mostrarModal, setMostrarModal] = useState(false);
 
   const perguntaAtual = perguntas[indiceAtual];
 
@@ -42,9 +44,9 @@ export default function JogoPage() {
       setTentativas(novasTentativas);
 
       if (novasTentativas >= 2) {
+        // Substitui o alert por:
         setTimeout(() => {
-          alert("💥 Erraste duas vezes. O jogo vai reiniciar!");
-          reiniciarJogo();
+          setMostrarModal(true);
         }, 500);
       }
     }
@@ -68,25 +70,23 @@ export default function JogoPage() {
   };
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-yellow-100 via-yellow-50 to-white px-4 py-10 text-center relative">
-      {/* Botão Voltar */}
-      <div className="absolute top-4 left-4">
+    <main className="min-h-screen overflow-x-hidden bg-gradient-to-br from-yellow-100 via-yellow-50 to-white px-4 py-10 text-center relative">
+      <div className="mb-5">
         <Link href="/">
           <Button
             variant="ghost"
-            className="flex items-center gap-2 text-gray-700 hover:text-black"
+            className="flex cursor-pointer items-center gap-2"
           >
             <ArrowLeftCircle size={20} /> Início
           </Button>
         </Link>
       </div>
 
-      <div className="max-w-2xl mx-auto bg-white rounded-3xl shadow-lg p-8 space-y-6 border border-yellow-300">
+      <div className="w-full max-w-2xl mx-auto bg-white rounded-3xl shadow-lg p-6 sm:p-8 space-y-6 border border-yellow-300">
         <h1 className="text-3xl font-extrabold text-yellow-600">
-          🎯 Desafio Interactivo
+          Desafio Interactivo
         </h1>
 
-        {/* Barra de Progresso */}
         <div className="w-full bg-gray-200 rounded-full h-4 overflow-hidden">
           <div
             className="bg-yellow-400 h-full transition-all duration-500"
@@ -101,14 +101,12 @@ export default function JogoPage() {
           {perguntas.length}
         </p>
 
-        {/* Pergunta */}
         <div className="bg-yellow-100 rounded-xl p-6 shadow-sm">
-          <p className="text-lg text-gray-800 font-medium">
+          <p className="text-lg text-gray-800 font-medium break-words overflow-wrap">
             {perguntaAtual.pergunta}
           </p>
         </div>
 
-        {/* Opções */}
         <div className="grid gap-3">
           {perguntaAtual.opcoes.map((opcao, index) => {
             const isSelected = respostaSelecionada === index;
@@ -120,15 +118,14 @@ export default function JogoPage() {
                 key={index}
                 onClick={() => responder(index)}
                 disabled={respostaSelecionada !== null && acertou!}
-                className={`w-full justify-start py-3 text-left cursor-pointer border rounded-lg transition 
+                className={`w-full justify-start py-3 text-left cursor-pointer border rounded-lg transition break-words max-w-full
                   ${
                     isCorrect
                       ? "bg-green-100 border-green-600 text-green-800"
                       : "text-black"
                   }
                   ${isWrong ? "bg-red-100 border-red-600 text-red-800" : ""}
-                  ${!isSelected ? "bg-white hover:bg-yellow-50" : ""}
-                `}
+                  ${!isSelected ? "bg-white hover:bg-yellow-50" : ""}`}
               >
                 {opcao}
               </Button>
@@ -136,16 +133,15 @@ export default function JogoPage() {
           })}
         </div>
 
-        {/* Feedback e Explicação */}
         {respostaSelecionada !== null && (
           <div className="mt-6 space-y-4">
             {acertou ? (
               <p className="text-green-700 font-semibold flex items-center justify-center gap-2">
-                ✅ <CheckCircle /> Boa! Acertaste!
+                <CheckCircle /> Boa! Acertaste!
               </p>
             ) : (
               <p className="text-red-700 font-semibold flex items-center justify-center gap-2">
-                ❌ <XCircle /> Ops... ({tentativas}/2)
+                <XCircle /> Ops... ({tentativas}/2)
               </p>
             )}
 
@@ -159,12 +155,11 @@ export default function JogoPage() {
             </Button>
 
             {mostrarExplicacao && (
-              <p className="bg-yellow-50 border border-yellow-200 text-gray-700 text-sm p-4 rounded-md">
+              <p className="bg-yellow-50 border border-yellow-200 text-gray-700 text-sm p-4 rounded-md break-words max-h-60 overflow-y-auto text-left">
                 {perguntaAtual.explicacao}
               </p>
             )}
 
-            {/* Navegação */}
             {acertou && (
               <>
                 {indiceAtual < perguntas.length - 1 ? (
@@ -194,6 +189,26 @@ export default function JogoPage() {
           </div>
         )}
       </div>
+      {/* Modal de fim de jogo */}
+      {mostrarModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-40">
+          <div className="bg-white p-6 rounded-xl max-w-sm text-center space-y-4 shadow-xl">
+            <h2 className="text-lg font-bold text-red-600">
+              💥 Jogo Reiniciado
+            </h2>
+            <p>Erraste duas vezes. O jogo será reiniciado.</p>
+            <Button
+              onClick={() => {
+                setMostrarModal(false);
+                reiniciarJogo();
+              }}
+              className="bg-yellow-500 cursor-pointer hover:bg-yellow-600 text-black font-bold"
+            >
+              Ok, entendi!
+            </Button>
+          </div>
+        </div>
+      )}
     </main>
   );
 }
