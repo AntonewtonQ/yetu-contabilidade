@@ -102,7 +102,7 @@ export const perguntas: Questao[] = [
     opcoes: [
       "Princípio da Prudência",
       "Princípio da Entidade",
-      "Princípio da Competência",
+      "Princípio de Acréscimo e Diferimento",
       "Princípio do Registro pelo Valor Original",
     ],
     correta: 2,
@@ -133,4 +133,65 @@ export const perguntas: Questao[] = [
     explicacao:
       "Ativos circulantes são aqueles que se transformarão em dinheiro ou serão utilizados em até 12 meses, como contas a receber e estoque.",
   },
+  {
+    pergunta: "O que caracteriza um activo fixo tangível segundo o PGC de Angola?",
+    opcoes: [
+      "Um bem de consumo imediato",
+      "Um activo detido para venda no decurso da actividade operacional",
+      "Um bem corpóreo usado na produção ou fornecimento de bens ou serviços",
+      "Um investimento financeiro de curto prazo",
+    ],
+    correta: 2,
+    explicacao:
+      "Um activo fixo tangível é um bem corpóreo detido pela empresa para ser utilizado na produção ou fornecimento de bens e serviços, para arrendamento a terceiros, ou para fins administrativos, e que se espera utilizar durante mais de um período contabilístico.",
+  },
+  {
+    pergunta: "Como é contabilizada a depreciação de um activo fixo tangível?",
+    opcoes: [
+      "Como um acréscimo ao valor do activo",
+      "Como uma redução directa do capital próprio",
+      "Como um gasto do exercício",
+      "Como uma receita financeira",
+    ],
+    correta: 2,
+    explicacao:
+      "A depreciação é reconhecida como um gasto do exercício, representando a perda de valor do activo fixo tangível ao longo do tempo devido ao uso, desgaste ou obsolescência.",
+  },
+  {
+    pergunta: "O que são inventários segundo o Sistema de Normalização Contabilística em Angola?",
+    opcoes: [
+      "Reservas de capital",
+      "Conjuntos de bens destinados à venda ou ao consumo no ciclo normal de actividade",
+      "Obrigações da empresa com fornecedores",
+      "Instrumentos financeiros negociáveis",
+    ],
+    correta: 1,
+    explicacao:
+      "Os inventários compreendem activos detidos para venda no decurso normal da actividade, em processo de produção para essa venda ou sob a forma de materiais ou consumíveis a serem utilizados nesse processo.",
+  },
+  {
+    pergunta: "O Imposto sobre o Valor Acrescentado (IVA) deve ser reconhecido contabilisticamente como:",
+    opcoes: [
+      "Uma despesa financeira",
+      "Um encargo a ser deduzido ao capital próprio",
+      "Um imposto a recuperar ou a entregar ao Estado",
+      "Um rendimento extraordinário",
+    ],
+    correta: 2,
+    explicacao:
+      "O IVA suportado recuperável é registado como um activo (imposto a recuperar), e o IVA liquidado é reconhecido como um passivo (imposto a entregar ao Estado), de acordo com o regime geral do IVA em Angola.",
+  },
+  {
+    pergunta: "Qual das seguintes afirmações está de acordo com o tratamento contabilístico dos inventários?",
+    opcoes: [
+      "Os inventários devem ser mensurados pelo seu valor de mercado",
+      "Os inventários são mensurados ao custo ou ao valor realizável líquido, dos dois o menor",
+      "Os inventários são sempre valorizados pelo preço de venda",
+      "Os inventários não devem sofrer ajustamentos de valor",
+    ],
+    correta: 1,
+    explicacao:
+      "De acordo com o PGC e o SNC-ANG, os inventários devem ser mensurados ao custo ou ao valor realizável líquido, dos dois o menor, sendo este o valor estimado de venda no decurso normal da actividade, deduzido dos custos de venda.",
+  }
+  
 ];
