@@ -12,6 +12,7 @@ export const perguntas: Questao[] = [
     correta: 2,
     explicacao:
       "A contabilidade tem como objetivo principal registrar, organizar e interpretar os fatos contábeis e financeiros para auxiliar na tomada de decisão.",
+    nivel: "fácil",
   },
   {
     pergunta: "O ativo é:",
@@ -24,6 +25,7 @@ export const perguntas: Questao[] = [
     correta: 3,
     explicacao:
       "Ativo representa todos os bens e direitos que a empresa possui e que podem ser convertidos em benefícios econômicos futuros.",
+    nivel: "fácil",
   },
   {
     pergunta: "O que é passivo?",
@@ -36,6 +38,7 @@ export const perguntas: Questao[] = [
     correta: 2,
     explicacao:
       "Passivo representa as obrigações da empresa, como dívidas com fornecedores, empréstimos e outras contas a pagar.",
+    nivel: "fácil",
   },
   {
     pergunta: "O patrimônio líquido corresponde a:",
@@ -48,6 +51,7 @@ export const perguntas: Questao[] = [
     correta: 1,
     explicacao:
       "Patrimônio líquido é a diferença entre o ativo e o passivo da empresa. Representa os recursos próprios dos sócios.",
+    nivel: "intermediário",
   },
   {
     pergunta: "Qual das alternativas é uma demonstração contábil obrigatória?",
@@ -60,6 +64,7 @@ export const perguntas: Questao[] = [
     correta: 1,
     explicacao:
       "O Balanço Patrimonial é uma demonstração contábil obrigatória que apresenta a posição financeira da empresa em um determinado momento.",
+    nivel: "fácil",
   },
   {
     pergunta: "Lançamentos contábeis devem sempre manter:",
@@ -72,6 +77,7 @@ export const perguntas: Questao[] = [
     correta: 2,
     explicacao:
       "Todo lançamento contábil deve manter o princípio da partida dobrada: para cada débito há um crédito correspondente, garantindo o equilíbrio.",
+    nivel: "intermediário",
   },
   {
     pergunta: "Qual é a finalidade da Demonstração do Resultado do Exercício (DRE)?",
@@ -84,6 +90,7 @@ export const perguntas: Questao[] = [
     correta: 1,
     explicacao:
       "A DRE apresenta as receitas, custos e despesas da empresa durante um período, permitindo identificar o lucro ou prejuízo do exercício.",
+    nivel: "intermediário",
   },
   {
     pergunta: "Despesas são:",
@@ -96,6 +103,7 @@ export const perguntas: Questao[] = [
     correta: 2,
     explicacao:
       "Despesas são gastos com bens e serviços consumidos para a manutenção das atividades da empresa e que reduzem o patrimônio líquido.",
+    nivel: "intermediário",
   },
   {
     pergunta: "Qual é o princípio contábil que determina que as receitas e despesas devem ser reconhecidas quando ocorrem, independentemente do recebimento ou pagamento?",
@@ -108,6 +116,7 @@ export const perguntas: Questao[] = [
     correta: 2,
     explicacao:
       "O Princípio da Competência determina que os efeitos das transações sejam reconhecidos no período em que ocorrem, e não quando são recebidos ou pagos.",
+    nivel: "difícil",
   },
   {
     pergunta: "A escrituração contábil deve ser feita:",
@@ -120,6 +129,7 @@ export const perguntas: Questao[] = [
     correta: 2,
     explicacao:
       "A escrituração contábil deve ser realizada continuamente, em ordem cronológica, com clareza, sem emendas ou rasuras, respeitando os princípios contábeis.",
+    nivel: "intermediário",
   },
   {
     pergunta: "Qual dos itens abaixo é considerado um ativo circulante?",
@@ -132,6 +142,7 @@ export const perguntas: Questao[] = [
     correta: 2,
     explicacao:
       "Ativos circulantes são aqueles que se transformarão em dinheiro ou serão utilizados em até 12 meses, como contas a receber e estoque.",
+    nivel: "intermediário",
   },
   {
     pergunta: "O que caracteriza um activo fixo tangível segundo o PGC de Angola?",
@@ -144,6 +155,7 @@ export const perguntas: Questao[] = [
     correta: 2,
     explicacao:
       "Um activo fixo tangível é um bem corpóreo detido pela empresa para ser utilizado na produção ou fornecimento de bens e serviços, para arrendamento a terceiros, ou para fins administrativos, e que se espera utilizar durante mais de um período contabilístico.",
+    nivel: "difícil",
   },
   {
     pergunta: "Como é contabilizada a depreciação de um activo fixo tangível?",
@@ -156,6 +168,7 @@ export const perguntas: Questao[] = [
     correta: 2,
     explicacao:
       "A depreciação é reconhecida como um gasto do exercício, representando a perda de valor do activo fixo tangível ao longo do tempo devido ao uso, desgaste ou obsolescência.",
+    nivel: "difícil",
   },
   {
     pergunta: "O que são inventários segundo o Sistema de Normalização Contabilística em Angola?",
@@ -168,6 +181,7 @@ export const perguntas: Questao[] = [
     correta: 1,
     explicacao:
       "Os inventários compreendem activos detidos para venda no decurso normal da actividade, em processo de produção para essa venda ou sob a forma de materiais ou consumíveis a serem utilizados nesse processo.",
+    nivel: "intermediário",
   },
   {
     pergunta: "O Imposto sobre o Valor Acrescentado (IVA) deve ser reconhecido contabilisticamente como:",
@@ -180,6 +194,7 @@ export const perguntas: Questao[] = [
     correta: 2,
     explicacao:
       "O IVA suportado recuperável é registado como um activo (imposto a recuperar), e o IVA liquidado é reconhecido como um passivo (imposto a entregar ao Estado), de acordo com o regime geral do IVA em Angola.",
+    nivel: "difícil",
   },
   {
     pergunta: "Qual das seguintes afirmações está de acordo com o tratamento contabilístico dos inventários?",
@@ -192,6 +207,6 @@ export const perguntas: Questao[] = [
     correta: 1,
     explicacao:
       "De acordo com o PGC e o SNC-ANG, os inventários devem ser mensurados ao custo ou ao valor realizável líquido, dos dois o menor, sendo este o valor estimado de venda no decurso normal da actividade, deduzido dos custos de venda.",
+    nivel: "difícil",
   }
-  
 ];

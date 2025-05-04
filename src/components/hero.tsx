@@ -57,10 +57,10 @@ export default function HeroWithHeader() {
           </Link>
 
           <nav className="hidden md:flex space-x-8 text-white font-medium">
-            <Link href="#" className="hover:text-yellow-300 transition">
+            <Link href="#sobre" className="hover:text-yellow-300 transition">
               Sobre
             </Link>
-            <Link href="#" className="hover:text-yellow-300 transition">
+            <Link href="#servicos" className="hover:text-yellow-300 transition">
               Serviços
             </Link>
             <Link href="/jogo" className="hover:text-yellow-300 transition">
