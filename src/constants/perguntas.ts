@@ -6,7 +6,7 @@ export const perguntas: Questao[] = [
     opcoes: [
       "Reduzir impostos",
       "Organizar reuniões",
-      "Registrar e interpretar fatos financeiros",
+      "Registrar e interpretar\nfatos financeiros",
       "Emitir cheques",
     ],
     correta: 2,
@@ -32,7 +32,7 @@ export const perguntas: Questao[] = [
     opcoes: [
       "Valores pagos pelos clientes",
       "Bens da empresa",
-      "Obrigações e dívidas da empresa",
+      "Obrigações e dívidas\nda empresa",
       "Reservas de lucros",
     ],
     correta: 2,
@@ -44,7 +44,7 @@ export const perguntas: Questao[] = [
     pergunta: "O patrimônio líquido corresponde a:",
     opcoes: [
       "A soma do ativo com o passivo",
-      "O que sobra do ativo após o pagamento das obrigações",
+      "O que sobra do ativo após o pagamento\ndas obrigações",
       "Todas as despesas da empresa",
       "Os investimentos de curto prazo",
     ],
@@ -71,7 +71,7 @@ export const perguntas: Questao[] = [
     opcoes: [
       "A conta de despesas em saldo positivo",
       "O saldo da conta caixa em zero",
-      "O equilíbrio entre débitos e créditos",
+      "O equilíbrio entre débitos\ne créditos",
       "Lucros maiores que prejuízos",
     ],
     correta: 2,
@@ -83,7 +83,7 @@ export const perguntas: Questao[] = [
     pergunta: "Qual é a finalidade da Demonstração do Resultado do Exercício (DRE)?",
     opcoes: [
       "Apresentar os fluxos de caixa",
-      "Registrar as receitas e despesas, apurando o lucro ou prejuízo",
+      "Registrar as receitas e despesas,\napurando o lucro ou prejuízo",
       "Indicar os bens e direitos da empresa",
       "Controlar o estoque",
     ],
@@ -97,7 +97,7 @@ export const perguntas: Questao[] = [
     opcoes: [
       "Bens utilizados pela empresa",
       "Valores pagos a fornecedores",
-      "Saídas de recursos que reduzem o patrimônio líquido",
+      "Saídas de recursos que reduzem\no patrimônio líquido",
       "Entradas de caixa",
     ],
     correta: 2,
@@ -110,7 +110,7 @@ export const perguntas: Questao[] = [
     opcoes: [
       "Princípio da Prudência",
       "Princípio da Entidade",
-      "Princípio de Acréscimo e Diferimento",
+      "Princípio de Acréscimo\ne Diferimento",
       "Princípio do Registro pelo Valor Original",
     ],
     correta: 2,
@@ -122,8 +122,8 @@ export const perguntas: Questao[] = [
     pergunta: "A escrituração contábil deve ser feita:",
     opcoes: [
       "Apenas no fim do ano fiscal",
-      "Sempre que houver pagamento de salários",
-      "De forma contínua, cronológica e sem rasuras",
+      "Sempre que houver pagamento\nde salários",
+      "De forma contínua, cronológica\ne sem rasuras",
       "Somente após auditoria externa",
     ],
     correta: 2,
@@ -136,7 +136,7 @@ export const perguntas: Questao[] = [
     opcoes: [
       "Veículo da empresa",
       "Móveis e utensílios",
-      "Duplicatas a receber em até 12 meses",
+      "Duplicatas a receber\nem até 12 meses",
       "Empréstimos de longo prazo",
     ],
     correta: 2,
@@ -148,9 +148,9 @@ export const perguntas: Questao[] = [
     pergunta: "O que caracteriza um activo fixo tangível segundo o PGC de Angola?",
     opcoes: [
       "Um bem de consumo imediato",
-      "Um activo detido para venda no decurso da actividade operacional",
-      "Um bem corpóreo usado na produção ou fornecimento de bens ou serviços",
-      "Um investimento financeiro de curto prazo",
+      "Um activo detido para venda\nno decurso da actividade operacional",
+      "Um bem corpóreo usado na produção\nou fornecimento de bens ou serviços",
+      "Um investimento financeiro\nde curto prazo",
     ],
     correta: 2,
     explicacao:
@@ -174,7 +174,7 @@ export const perguntas: Questao[] = [
     pergunta: "O que são inventários segundo o Sistema de Normalização Contabilística em Angola?",
     opcoes: [
       "Reservas de capital",
-      "Conjuntos de bens destinados à venda ou ao consumo no ciclo normal de actividade",
+      "Conjuntos de bens destinados à venda\nou ao consumo no ciclo normal de actividade",
       "Obrigações da empresa com fornecedores",
       "Instrumentos financeiros negociáveis",
     ],
@@ -188,7 +188,7 @@ export const perguntas: Questao[] = [
     opcoes: [
       "Uma despesa financeira",
       "Um encargo a ser deduzido ao capital próprio",
-      "Um imposto a recuperar ou a entregar ao Estado",
+      "Um imposto a recuperar\nou a entregar ao Estado",
       "Um rendimento extraordinário",
     ],
     correta: 2,
@@ -199,10 +199,10 @@ export const perguntas: Questao[] = [
   {
     pergunta: "Qual das seguintes afirmações está de acordo com o tratamento contabilístico dos inventários?",
     opcoes: [
-      "Os inventários devem ser mensurados pelo seu valor de mercado",
-      "Os inventários são mensurados ao custo ou ao valor realizável líquido, dos dois o menor",
-      "Os inventários são sempre valorizados pelo preço de venda",
-      "Os inventários não devem sofrer ajustamentos de valor",
+      "Os inventários devem ser mensurados\npelo seu valor de mercado",
+      "Os inventários são mensurados ao custo\nou ao valor realizável líquido,\ndos dois o menor",
+      "Os inventários são sempre valorizados\npelo preço de venda",
+      "Os inventários não devem sofrer\najustamentos de valor",
     ],
     correta: 1,
     explicacao:
