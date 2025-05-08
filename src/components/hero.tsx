@@ -1,5 +1,4 @@
 "use client";
-
 import Link from "next/link";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
@@ -58,13 +57,16 @@ export default function HeroWithHeader() {
 
           <nav className="hidden md:flex space-x-8 text-white font-medium">
             <Link href="#sobre" className="hover:text-yellow-300 transition">
-              Sobre
+              Sobre Nós
             </Link>
             <Link href="#servicos" className="hover:text-yellow-300 transition">
               Serviços
             </Link>
             <Link href="/jogo" className="hover:text-yellow-300 transition">
               Quiz
+            </Link>
+            <Link href="#faq" className="hover:text-yellow-400 transition">
+              FAQs
             </Link>
           </nav>
 
@@ -84,14 +86,16 @@ export default function HeroWithHeader() {
         {isOpen && (
           <div className="md:hidden bg-yellow-300 px-6 py-4 space-y-4">
             <Link href="#sobre" className="block text-black">
-              Sobre
+              Sobre Nós
             </Link>
             <Link href="#servicos" className="block text-black">
               Serviços
             </Link>
-
-            <Link href="/jogo" className="hover:text-yellow-300 transition">
+            <Link href="/jogo" className="block text-black">
               Quiz
+            </Link>
+            <Link href="#faq" className="block text-black">
+              FAQs
             </Link>
             <Link href="/login" className="block text-black">
               Entrar

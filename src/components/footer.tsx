@@ -36,8 +36,8 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="#cursos" className="hover:text-yellow-400 transition">
-                Cursos
+              <Link href="/jogo" className="hover:text-yellow-400 transition">
+                Quiz
               </Link>
             </li>
             <li>
