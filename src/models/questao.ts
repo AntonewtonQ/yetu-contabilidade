@@ -5,5 +5,5 @@ export type Questao = {
   opcoes: string[];
   correta: number;
   explicacao: string;
-  nivel: Nivel; // novo campo
+  nivel: Nivel;
 };

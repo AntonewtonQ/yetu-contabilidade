@@ -155,7 +155,7 @@ export default function JogoPage() {
                       key={index}
                       onClick={() => responder(index)}
                       disabled={respostaSelecionada !== null && acertou!}
-                      className={`w-full justify-start py-3 text-left cursor-pointer border rounded-lg transition
+                      className={`w-full justify-start py-3 text-left cursor-pointer border rounded-lg transition text-sm sm:text-base
                       ${
                         isCorrect
                           ? "bg-green-100 border-green-600 text-green-800"
