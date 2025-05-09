@@ -54,7 +54,7 @@ export const perguntas: Questao[] = [
     nivel: "intermediário",
   },
   {
-    pergunta: "Qual das alternativas é uma demonstração contábil obrigatória?",
+    pergunta: "Qual das alternativas é uma demonstração contabilístico obrigatória?",
     opcoes: [
       "Orçamento Anual",
       "Balanço Patrimonial",
@@ -63,7 +63,7 @@ export const perguntas: Questao[] = [
     ],
     correta: 1,
     explicacao:
-      "O Balanço Patrimonial é uma demonstração contábil obrigatória que apresenta a posição financeira da empresa em um determinado momento.",
+      "O Balanço Patrimonial é uma demonstração contabilístico obrigatória que apresenta a posição financeira da empresa em um determinado momento.",
     nivel: "fácil",
   },
   {
@@ -76,7 +76,7 @@ export const perguntas: Questao[] = [
     ],
     correta: 2,
     explicacao:
-      "Todo lançamento contábil deve manter o princípio da partida dobrada: para cada débito há um crédito correspondente, garantindo o equilíbrio.",
+      "Todo lançamento contabilístico deve manter o princípio da partida dobrada: para cada débito há um crédito correspondente, garantindo o equilíbrio.",
     nivel: "intermediário",
   },
   {
@@ -106,7 +106,7 @@ export const perguntas: Questao[] = [
     nivel: "intermediário",
   },
   {
-    pergunta: "Qual é o princípio contábil que determina que as receitas e despesas devem ser reconhecidas quando ocorrem, independentemente do recebimento ou pagamento?",
+    pergunta: "Qual é o princípio contabilístico que determina que as receitas e despesas devem ser reconhecidas quando ocorrem, independentemente do recebimento ou pagamento?",
     opcoes: [
       "Princípio da Prudência",
       "Princípio da Entidade",
@@ -119,7 +119,7 @@ export const perguntas: Questao[] = [
     nivel: "difícil",
   },
   {
-    pergunta: "A escrituração contábil deve ser feita:",
+    pergunta: "A escrituração contabilístico deve ser feita:",
     opcoes: [
       "Apenas no fim do ano fiscal",
       "Sempre que houver pagamento\nde salários",
@@ -128,7 +128,7 @@ export const perguntas: Questao[] = [
     ],
     correta: 2,
     explicacao:
-      "A escrituração contábil deve ser realizada continuamente, em ordem cronológica, com clareza, sem emendas ou rasuras, respeitando os princípios contábeis.",
+      "A escrituração contabilístico deve ser realizada continuamente, em ordem cronológica, com clareza, sem emendas ou rasuras, respeitando os princípios contábeis.",
     nivel: "intermediário",
   },
   {

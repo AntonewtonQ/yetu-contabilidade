@@ -15,8 +15,8 @@ export default function AboutSection() {
             A <strong>Yetu Contabilidade</strong> é uma plataforma académica
             angolana dedicada à criação e disseminação de conteúdos contábeis
             adaptados ao nosso contexto nacional. Nossa missão é{" "}
-            <em>democratizar o conhecimento contábil</em> com recursos modernos
-            e metodologias práticas.
+            <em>democratizar o conhecimento contabilístico</em> com recursos
+            modernos e metodologias práticas.
           </p>
           <p className="text-gray-700">
             Oferecemos formação contínua e acessível para estudantes,

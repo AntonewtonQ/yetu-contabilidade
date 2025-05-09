@@ -111,7 +111,7 @@ export default function HeroWithHeader() {
         </h1>
         <p className="text-lg md:text-xl text-gray-100 max-w-2xl mb-8">
           Aprende do básico ao avançado com conteúdo 100% adaptado à realidade
-          contábil angolana.
+          contabilístico angolana.
         </p>
         <div className="flex gap-4">
           <Button

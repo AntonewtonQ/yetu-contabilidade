@@ -13,7 +13,7 @@ export default function Footer() {
             Yetu<span className="text-yellow-400">.</span>Contabilidade
           </h3>
           <p className="text-sm">
-            Educação contábil para a realidade angolana. Aprende, evolui e
+            Educação contabilístico para a realidade angolana. Aprende, evolui e
             prepara-te para transformar o teu futuro financeiro.
           </p>
         </div>
