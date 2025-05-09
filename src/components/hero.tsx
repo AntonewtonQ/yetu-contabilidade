@@ -121,7 +121,7 @@ export default function HeroWithHeader() {
             <Link href="#sobre">Saiba Mais</Link>
           </Button>
           <Button asChild variant="outline" className="px-6 py-4 text-lg">
-            <Link href="#cursos">Explorar Cursos</Link>
+            <Link href="https://tally.so/r/wLg6Jp">Enviar Feedback</Link>
           </Button>
         </div>
       </div>
