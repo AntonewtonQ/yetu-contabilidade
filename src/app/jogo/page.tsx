@@ -131,7 +131,7 @@ export default function JogoPage() {
                   setPerguntasAleatorias(embaralharArray(perguntasDoNivel));
                   setNivelSelecionado(nivel);
                 }}
-                className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold cursor-pointer transition duration-300 ease-in-out"
+                className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold cursor-pointer"
               >
                 {nivel.charAt(0).toUpperCase() + nivel.slice(1)}
               </Button>
