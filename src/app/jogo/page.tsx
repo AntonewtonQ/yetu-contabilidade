@@ -13,6 +13,12 @@ import Link from "next/link";
 import { perguntas } from "@/constants/perguntas";
 import { Nivel } from "@/models/questao";
 
+const ordemNiveis: Nivel[] = ["fácil", "intermediário", "difícil"];
+
+function embaralharArray<T>(array: T[]): T[] {
+  return [...array].sort(() => Math.random() - 0.5);
+}
+
 export default function JogoPage() {
   const [indiceAtual, setIndiceAtual] = useState(0);
   const [respostaSelecionada, setRespostaSelecionada] = useState<number | null>(
@@ -24,10 +30,12 @@ export default function JogoPage() {
   const [mostrarExplicacao, setMostrarExplicacao] = useState(false);
   const [mostrarModal, setMostrarModal] = useState(false);
   const [nivelSelecionado, setNivelSelecionado] = useState<Nivel | null>(null);
+  const [fimDoJogo, setFimDoJogo] = useState(false);
+  const [perguntasAleatorias, setPerguntasAleatorias] = useState<
+    typeof perguntas
+  >([]);
 
-  const perguntasFiltradas = perguntas.filter(
-    (p) => p.nivel === nivelSelecionado
-  );
+  const perguntasFiltradas = perguntasAleatorias;
   const perguntaAtual = perguntasFiltradas[indiceAtual] ?? null;
 
   const responder = (index: number) => {
@@ -70,18 +78,29 @@ export default function JogoPage() {
     setPontuacao(0);
     setMostrarExplicacao(false);
     setMostrarModal(false);
-    setNivelSelecionado(null); // ← esta linha faz voltar à seleção de nível
+    setNivelSelecionado(null);
+    setFimDoJogo(false);
+    setPerguntasAleatorias([]);
   };
 
-  if (nivelSelecionado && perguntasFiltradas.length === 0) {
-    return (
-      <main className="min-h-screen flex items-center justify-center px-4">
-        <p className="text-red-600 font-bold text-lg">
-          Nenhuma pergunta disponível para o nível selecionado.
-        </p>
-      </main>
-    );
-  }
+  const proximoNivelOuFim = () => {
+    const indiceAtualNivel = ordemNiveis.indexOf(nivelSelecionado!);
+    const proximoNivel = ordemNiveis[indiceAtualNivel + 1];
+
+    if (proximoNivel) {
+      const novasPerguntas = perguntas.filter((p) => p.nivel === proximoNivel);
+      setPerguntasAleatorias(embaralharArray(novasPerguntas));
+      setNivelSelecionado(proximoNivel);
+      setIndiceAtual(0);
+      setRespostaSelecionada(null);
+      setAcertou(null);
+      setTentativas(0);
+      setMostrarExplicacao(false);
+    } else {
+      setFimDoJogo(true);
+      setMostrarModal(true);
+    }
+  };
 
   return (
     <main className="min-h-screen overflow-x-hidden bg-gradient-to-br from-yellow-100 via-yellow-50 to-white px-4 py-10 text-center relative">
@@ -97,16 +116,22 @@ export default function JogoPage() {
       </div>
 
       {!nivelSelecionado ? (
-        <div className="text-center space-y-4">
+        <div className="flex flex-col items-center justify-center min-h-[65vh] text-center space-y-4 ">
           <h2 className="text-xl font-bold text-gray-800">
             Escolha o nível de dificuldade
           </h2>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            {["fácil", "intermediário", "difícil"].map((nivel) => (
+            {ordemNiveis.map((nivel) => (
               <Button
                 key={nivel}
-                onClick={() => setNivelSelecionado(nivel as Nivel)}
-                className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold"
+                onClick={() => {
+                  const perguntasDoNivel = perguntas.filter(
+                    (p) => p.nivel === nivel
+                  );
+                  setPerguntasAleatorias(embaralharArray(perguntasDoNivel));
+                  setNivelSelecionado(nivel);
+                }}
+                className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold cursor-pointer transition duration-300 ease-in-out"
               >
                 {nivel.charAt(0).toUpperCase() + nivel.slice(1)}
               </Button>
@@ -119,7 +144,6 @@ export default function JogoPage() {
             Desafio Interactivo
           </h1>
 
-          {/* Barra de progresso */}
           <div className="w-full bg-gray-200 rounded-full h-4 overflow-hidden">
             <div
               className="bg-yellow-400 h-full transition-all duration-500"
@@ -209,20 +233,15 @@ export default function JogoPage() {
                           Próxima pergunta →
                         </Button>
                       ) : (
-                        <div className="text-center space-y-3">
-                          <p className="text-md text-gray-700">
-                            🎉 Fim do jogo! Pontuação final:{" "}
-                            <strong>{pontuacao}</strong> /{" "}
-                            {perguntasFiltradas.length}
-                          </p>
-                          <Button
-                            onClick={reiniciarJogo}
-                            className="flex items-center gap-2 text-sm bg-red-400 text-white hover:bg-red-500"
-                          >
-                            <RotateCcw size={16} />
-                            Recomeçar Jogo
-                          </Button>
-                        </div>
+                        <Button
+                          onClick={proximoNivelOuFim}
+                          className="bg-yellow-400 text-black hover:bg-yellow-500 font-bold"
+                        >
+                          {ordemNiveis.indexOf(nivelSelecionado!) <
+                          ordemNiveis.length - 1
+                            ? "Avançar para o próximo nível →"
+                            : "Concluir o jogo"}
+                        </Button>
                       )}
                     </>
                   )}
@@ -233,14 +252,17 @@ export default function JogoPage() {
         </div>
       )}
 
-      {/* Modal de fim de jogo */}
       {mostrarModal && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-40">
           <div className="bg-white p-6 rounded-xl max-w-sm text-center space-y-4 shadow-xl">
             <h2 className="text-lg font-bold text-red-600">
-              💥 Jogo Reiniciado
+              {fimDoJogo ? "🏁 Parabéns!" : "💥 Jogo Reiniciado"}
             </h2>
-            <p>Erraste duas vezes. O jogo será reiniciado.</p>
+            <p>
+              {fimDoJogo
+                ? `Completaste todos os níveis! Pontuação final: ${pontuacao}`
+                : "Erraste duas vezes. O jogo será reiniciado."}
+            </p>
             <Button
               onClick={() => {
                 setMostrarModal(false);
@@ -248,7 +270,7 @@ export default function JogoPage() {
               }}
               className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold"
             >
-              Ok, entendi!
+              {fimDoJogo ? "Jogar Novamente" : "Ok, entendi!"}
             </Button>
           </div>
         </div>
