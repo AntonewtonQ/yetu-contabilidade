@@ -1,7 +1,7 @@
 // src/app/pgc/[codigo]/page.tsx
 import { notFound } from "next/navigation";
 import fs from "fs/promises";
-import path from "path";
+import path from "path"; // Importa o tipo PageProps do Next.js
 
 interface Conta {
   conta: string;
@@ -47,7 +47,7 @@ export default async function ContaPage({
           <h2 className="text-xl font-semibold">Subcontas:</h2>
           <ul className="list-disc pl-6">
             {conta.subcontas.map((sub, index) => (
-              <li key={sub.conta + index} className="mt-2">
+              <li key={`${sub.conta}-${index}`}>
                 <a
                   href={`/pgc/${sub.conta}`}
                   className="text-blue-500 hover:underline"
