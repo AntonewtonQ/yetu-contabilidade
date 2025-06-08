@@ -1,0 +1,3969 @@
+[
+    {
+        "conta": "1",
+        "descricao": "Meios fixos e investimen c tos:",
+        "subcontas": [
+            {
+                "conta": "11.",
+                "descricao": "Imobilizações corpóreas"
+            },
+            {
+                "conta": "12.",
+                "descricao": "Imobilizações incorpóreas"
+            },
+            {
+                "conta": "13.",
+                "descricao": "Investimentos financeiros"
+            },
+            {
+                "conta": "14.",
+                "descricao": "Imobilizações em curso"
+            },
+            {
+                "conta": "15.",
+                "descricao": "......................................................................................."
+            },
+            {
+                "conta": "16.",
+                "descricao": "......................................................................................."
+            },
+            {
+                "conta": "17.",
+                "descricao": "......................................................................................."
+            },
+            {
+                "conta": "18.",
+                "descricao": "Amortizações acumuladas"
+            },
+            {
+                "conta": "19.",
+                "descricao": "Provisões para investimentos financeiros"
+            },
+            {
+                "conta": "11.\tImobilizações",
+                "descricao": "Corpóreas:"
+            },
+            {
+                "conta": "11.1",
+                "descricao": "Terrenos e recursos naturais"
+            },
+            {
+                "conta": "11.1.1",
+                "descricao": "Terrenos em bruto"
+            },
+            {
+                "conta": "11.1.2",
+                "descricao": "Terrenos com arranjos"
+            },
+            {
+                "conta": "11.1.3",
+                "descricao": "Subsolos"
+            },
+            {
+                "conta": "11.1.4",
+                "descricao": "Terrenos com edifícios"
+            },
+            {
+                "conta": "11.1.4.1",
+                "descricao": "Relativos a edifícios industriais"
+            },
+            {
+                "conta": "11.1.4.2",
+                "descricao": "Relativos a edifícios administrati-"
+            },
+            {
+                "conta": "11.1.4.3",
+                "descricao": "Relativos a outros edifícios"
+            },
+            {
+                "conta": "11.2",
+                "descricao": "Edifícios e outras construções"
+            },
+            {
+                "conta": "11.2.1",
+                "descricao": "Edifícios"
+            },
+            {
+                "conta": "11.2.1.1",
+                "descricao": "Integrados em conjuntos indus-"
+            },
+            {
+                "conta": "11.2.1.2",
+                "descricao": "Integrados em conjuntos adminis-"
+            },
+            {
+                "conta": "11.2.1.3",
+                "descricao": "Outros conjuntos industriais"
+            },
+            {
+                "conta": "11.2.1.4",
+                "descricao": "Implantados em propriedade"
+            },
+            {
+                "conta": "11.2.2",
+                "descricao": "Outras construções"
+            },
+            {
+                "conta": "11.2.3",
+                "descricao": "Instalações"
+            },
+            {
+                "conta": "11.3",
+                "descricao": "Equipamento básico"
+            },
+            {
+                "conta": "11.3.1",
+                "descricao": "Material industrial"
+            },
+            {
+                "conta": "11.3.2",
+                "descricao": "Ferramentas industriais"
+            },
+            {
+                "conta": "11.3.3",
+                "descricao": "Melhoramentos em equipamentos básicos"
+            },
+            {
+                "conta": "11.4",
+                "descricao": "Equipamento de carga e transporte"
+            },
+            {
+                "conta": "11.4.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "11.5",
+                "descricao": "Equipamento administrativo"
+            },
+            {
+                "conta": "11.5.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "11.6",
+                "descricao": "Taras e vasilhame"
+            },
+            {
+                "conta": "11.6.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "11.9",
+                "descricao": "Outras imobilizações corpóreas"
+            },
+            {
+                "conta": "11.9.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "12.\tImobilizações",
+                "descricao": "Incorpóreas:"
+            },
+            {
+                "conta": "12.1",
+                "descricao": "Trespasses"
+            },
+            {
+                "conta": "12.1.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "12.2",
+                "descricao": "Despesas de investigação e desenvolvimento"
+            },
+            {
+                "conta": "12.2.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "12.3",
+                "descricao": "Propriedade industrial e outros direitos e contra-"
+            },
+            {
+                "conta": "12.3.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "12.4",
+                "descricao": "Despesas de constituição"
+            },
+            {
+                "conta": "12.4.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "12.9",
+                "descricao": "Outras imobilizações incorpóreas"
+            },
+            {
+                "conta": "12.9.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "13.\tInvestimentos",
+                "descricao": "Financeiros:"
+            },
+            {
+                "conta": "13.1",
+                "descricao": "Empresas subsidiárias"
+            },
+            {
+                "conta": "13.1.1",
+                "descricao": "Partes de capital"
+            },
+            {
+                "conta": "13.1.2",
+                "descricao": "Obrigações e títulos de participação"
+            },
+            {
+                "conta": "13.1.3",
+                "descricao": "Empréstimos"
+            },
+            {
+                "conta": "13.2",
+                "descricao": "Empresas associadas"
+            },
+            {
+                "conta": "13.2.1",
+                "descricao": "Partes de capital"
+            },
+            {
+                "conta": "13.2.2",
+                "descricao": "Obrigações e títulos de participação"
+            },
+            {
+                "conta": "13.2.3",
+                "descricao": "Empréstimos"
+            }
+        ]
+    },
+    {
+        "conta": "34 Diário da República",
+        "descricao": "Plano Geral de Contabilidade",
+        "subcontas": [
+            {
+                "conta": "13.3",
+                "descricao": "Outras empresas"
+            },
+            {
+                "conta": "13.3.1",
+                "descricao": "Partes de capital"
+            },
+            {
+                "conta": "13.3.2",
+                "descricao": "Obrigações e títulos de participação"
+            },
+            {
+                "conta": "13.3.3",
+                "descricao": "Empréstimos"
+            },
+            {
+                "conta": "13.4",
+                "descricao": "Investimentos em imóveis"
+            },
+            {
+                "conta": "13.4.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "13.5",
+                "descricao": "Fundos"
+            },
+            {
+                "conta": "13.5.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "13.9",
+                "descricao": "Outros investimentos Financeiros"
+            },
+            {
+                "conta": "13.9.1",
+                "descricao": "Diamantes"
+            },
+            {
+                "conta": "13.9.2",
+                "descricao": "Ouro"
+            },
+            {
+                "conta": "13.9.3",
+                "descricao": "Depósitos bancários"
+            },
+            {
+                "conta": "14.\tImobilizações",
+                "descricao": "em Curso:"
+            },
+            {
+                "conta": "14.1",
+                "descricao": "Obra em curso"
+            },
+            {
+                "conta": "14.2",
+                "descricao": "Obra em curso"
+            },
+            {
+                "conta": "14.7",
+                "descricao": "Adiantamentos por conta de imobilizado corpóreo"
+            },
+            {
+                "conta": "14.7.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "14.8",
+                "descricao": "Adiantamentos por conta de imobilizado incorpó-"
+            },
+            {
+                "conta": "14.8.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "14.9",
+                "descricao": "Adiantamentos por conta de investimentos financei-"
+            },
+            {
+                "conta": "14.9.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "18.\tAmortizações",
+                "descricao": "Acumuladas:"
+            },
+            {
+                "conta": "18.1",
+                "descricao": "Imobilizações corpóreas[8]"
+            },
+            {
+                "conta": "18.1.1",
+                "descricao": "Terrenos e recursos naturais"
+            },
+            {
+                "conta": "18.1.2",
+                "descricao": "Edifícios e outras construções"
+            },
+            {
+                "conta": "18.1.3",
+                "descricao": "Equipamento básico"
+            },
+            {
+                "conta": "18.1.4",
+                "descricao": "Equipamento de carga e transporte"
+            },
+            {
+                "conta": "18.1.5",
+                "descricao": "Equipamento administrativo"
+            },
+            {
+                "conta": "18.1.6",
+                "descricao": "Taras e vasilhame"
+            },
+            {
+                "conta": "18.1.9",
+                "descricao": "Outras imobilizações corpóreas"
+            },
+            {
+                "conta": "18.1.2",
+                "descricao": "- Edifício e outras construções aparece apenas 18.2."
+            },
+            {
+                "conta": "18.2",
+                "descricao": "Imobilizações incorpóreas"
+            },
+            {
+                "conta": "18.2.1",
+                "descricao": "Trespasses"
+            },
+            {
+                "conta": "18.2.2",
+                "descricao": "Despesas de investigação e desenvolvimento"
+            },
+            {
+                "conta": "18.2.3",
+                "descricao": "Propriedade industrial e outros direitos e"
+            },
+            {
+                "conta": "18.2.4",
+                "descricao": "Despesas de constituição"
+            },
+            {
+                "conta": "18.2.9",
+                "descricao": "Outras imobilizações incorpóreas"
+            },
+            {
+                "conta": "18.3",
+                "descricao": "Investimentos financeiros em imóveis"
+            },
+            {
+                "conta": "18.3.1",
+                "descricao": "Terrenos e recursos naturais"
+            },
+            {
+                "conta": "18.3.2",
+                "descricao": "Edifícios e outras construções"
+            },
+            {
+                "conta": "19.\tProvisões",
+                "descricao": "para investimentos financeiros:"
+            },
+            {
+                "conta": "19.1",
+                "descricao": "Empresas subsidiárias"
+            },
+            {
+                "conta": "19.1.1",
+                "descricao": "Partes de capital"
+            },
+            {
+                "conta": "19.1.2",
+                "descricao": "Obrigações e títulos de participação"
+            },
+            {
+                "conta": "19.1.3",
+                "descricao": "Empréstimos"
+            },
+            {
+                "conta": "19.2",
+                "descricao": "Empresas associadas"
+            },
+            {
+                "conta": "19.2.1",
+                "descricao": "Partes de capital"
+            },
+            {
+                "conta": "19.2.2",
+                "descricao": "Obrigações e títulos de participação"
+            },
+            {
+                "conta": "19.2.3",
+                "descricao": "Empréstimos"
+            },
+            {
+                "conta": "19.3",
+                "descricao": "Outras empresas"
+            },
+            {
+                "conta": "19.3.1",
+                "descricao": "Partes de capital"
+            },
+            {
+                "conta": "19.3.2",
+                "descricao": "Obrigações e títulos de participação"
+            },
+            {
+                "conta": "19.3.3",
+                "descricao": "Empréstimos"
+            },
+            {
+                "conta": "19.4",
+                "descricao": "Fundos"
+            },
+            {
+                "conta": "19.4.1",
+                "descricao": "Partes de capital"
+            },
+            {
+                "conta": "19.9",
+                "descricao": "Outros investimentos financeiros"
+            },
+            {
+                "conta": "19.9.1",
+                "descricao": "Diamantes"
+            },
+            {
+                "conta": "19.9.2",
+                "descricao": "Ouro"
+            },
+            {
+                "conta": "19.9.3",
+                "descricao": "Depósitos bancários"
+            }
+        ]
+    },
+    {
+        "conta": "2",
+        "descricao": "Existências:",
+        "subcontas": [
+            {
+                "conta": "21.",
+                "descricao": "Compras"
+            },
+            {
+                "conta": "22.",
+                "descricao": "Matérias-primas, subsidiárias e de consumo"
+            },
+            {
+                "conta": "23.",
+                "descricao": "Produtos e trabalhos em curso"
+            },
+            {
+                "conta": "24.",
+                "descricao": "Produtos acabados e intermédios"
+            },
+            {
+                "conta": "25.",
+                "descricao": "Sub-produtos, desperdícios, resíduos e refugos"
+            },
+            {
+                "conta": "26.",
+                "descricao": "Mercadorias"
+            },
+            {
+                "conta": "27.",
+                "descricao": "Matérias-primas, mercadorias e outros materiais em"
+            },
+            {
+                "conta": "28.",
+                "descricao": "Adiantamentos por conta de compras"
+            },
+            {
+                "conta": "29.",
+                "descricao": "Provisão para depreciação de existências"
+            },
+            {
+                "conta": "21.\tCompras:",
+                "descricao": ""
+            },
+            {
+                "conta": "21.1",
+                "descricao": "Matérias-primas, subsidiárias e de consumo"
+            },
+            {
+                "conta": "21.1.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "21.2",
+                "descricao": "Mercadorias"
+            },
+            {
+                "conta": "21.2.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "21.7",
+                "descricao": "Devoluções de compras"
+            },
+            {
+                "conta": "21.7.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "21.8",
+                "descricao": "Descontos e abatimentos em compras"
+            },
+            {
+                "conta": "21.8.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "21.9",
+                "descricao": ".............................................................................."
+            },
+            {
+                "conta": "21.9.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "22.",
+                "descricao": "Matérias-primas subsidiárias e de consumo:"
+            },
+            {
+                "conta": "22.1",
+                "descricao": "Matérias-primas"
+            },
+            {
+                "conta": "22.1.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "22.2",
+                "descricao": "Matérias subsidiárias"
+            },
+            {
+                "conta": "22.2.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "22.3",
+                "descricao": "Materiais diversos"
+            },
+            {
+                "conta": "22.3.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "22.4",
+                "descricao": "Embalagens de consumo"
+            },
+            {
+                "conta": "22.4.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "22.5",
+                "descricao": "Outros materiais"
+            },
+            {
+                "conta": "22.5.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "23.\tProdutos",
+                "descricao": "e trabalhos em curso:"
+            },
+            {
+                "conta": "23.1",
+                "descricao": ".............................................................................."
+            },
+            {
+                "conta": "23.2",
+                "descricao": ".............................................................................."
+            },
+            {
+                "conta": "24.\tProdutos",
+                "descricao": "acabados e intermédios:"
+            },
+            {
+                "conta": "24.1",
+                "descricao": "Produtos acabados"
+            },
+            {
+                "conta": "24.1.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "24.2",
+                "descricao": "Produtos intermédios"
+            },
+            {
+                "conta": "24.2.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "24.9",
+                "descricao": "Em poder de terceiros"
+            },
+            {
+                "conta": "24.9.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "25.\tSub-produtos,",
+                "descricao": "desperdícios, resíduos e refugos:"
+            },
+            {
+                "conta": "25.1",
+                "descricao": "Sub-produtos"
+            },
+            {
+                "conta": "25.1.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "25.2",
+                "descricao": "Desperdícios, resíduos e refugos"
+            },
+            {
+                "conta": "25.2.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "26.",
+                "descricao": "Mercadorias:"
+            },
+            {
+                "conta": "26.1",
+                "descricao": ".............................................................................."
+            },
+            {
+                "conta": "26.2",
+                "descricao": ".............................................................................."
+            },
+            {
+                "conta": "26.9",
+                "descricao": "Em poder de terceiros"
+            },
+            {
+                "conta": "26.9.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "27.",
+                "descricao": "Matérias-primas, mercadorias e outros materiais em"
+            },
+            {
+                "conta": "27.1",
+                "descricao": "Matérias-primas"
+            },
+            {
+                "conta": "27.1.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "27.2",
+                "descricao": "Outros materiais"
+            },
+            {
+                "conta": "27.2.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "27.3",
+                "descricao": "Mercadorias"
+            },
+            {
+                "conta": "27.3.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "28.\tAdiantamentos",
+                "descricao": "por conta de compras:"
+            },
+            {
+                "conta": "28.1",
+                "descricao": "Matérias-primas e outros materiais"
+            },
+            {
+                "conta": "28.1.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "28.2",
+                "descricao": "Mercadorias"
+            },
+            {
+                "conta": "28.2.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "29.\tProvisão",
+                "descricao": "para depreciação de existências:"
+            },
+            {
+                "conta": "29.1",
+                "descricao": ".............................................................................."
+            },
+            {
+                "conta": "29.2",
+                "descricao": "Matérias-primas subsidiárias e de consumo"
+            },
+            {
+                "conta": "29.2.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "29.3",
+                "descricao": "Produtos e trabalhos em curso"
+            },
+            {
+                "conta": "29.3.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "29.4",
+                "descricao": "Produtos acabados e intermédios"
+            },
+            {
+                "conta": "29.4.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "29.5",
+                "descricao": "Sub-produtos, desperdícios, resíduos e refugos"
+            },
+            {
+                "conta": "29.5.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "29.6",
+                "descricao": "Mercadorias"
+            },
+            {
+                "conta": "29.6.1",
+                "descricao": "....................................................................."
+            }
+        ]
+    },
+    {
+        "conta": "36 Diário da República",
+        "descricao": "Plano Geral de Contabilidade",
+        "subcontas": []
+    },
+    {
+        "conta": "3",
+        "descricao": "Terceiros:",
+        "subcontas": [
+            {
+                "conta": "31.",
+                "descricao": "Clientes"
+            },
+            {
+                "conta": "32.",
+                "descricao": "Fornecedores"
+            },
+            {
+                "conta": "33.",
+                "descricao": "Empréstimos"
+            },
+            {
+                "conta": "34.",
+                "descricao": "Estado"
+            },
+            {
+                "conta": "35.",
+                "descricao": "Entidades participantes e participadas"
+            },
+            {
+                "conta": "36.",
+                "descricao": "Pessoal"
+            },
+            {
+                "conta": "37.",
+                "descricao": "Outros valores a receber e a pagar"
+            },
+            {
+                "conta": "38.",
+                "descricao": "Provisões para cobranças duvidosas"
+            },
+            {
+                "conta": "39.",
+                "descricao": "Provisões para outros riscos e encargos"
+            },
+            {
+                "conta": "31.\tClientes:",
+                "descricao": ""
+            },
+            {
+                "conta": "31.1",
+                "descricao": "Clientes – correntes"
+            },
+            {
+                "conta": "31.1.1",
+                "descricao": "Grupo"
+            },
+            {
+                "conta": "31.1.1.1",
+                "descricao": "Subsidiárias"
+            },
+            {
+                "conta": "31.1.1.2",
+                "descricao": "Associadas"
+            },
+            {
+                "conta": "31.1.2",
+                "descricao": "Não grupo"
+            },
+            {
+                "conta": "31.1.2.1",
+                "descricao": "Nacionais"
+            },
+            {
+                "conta": "31.1.2.2",
+                "descricao": "Estrangeiros"
+            },
+            {
+                "conta": "31.2",
+                "descricao": "Clientes – títulos a receber"
+            },
+            {
+                "conta": "31.2.1",
+                "descricao": "Grupo"
+            },
+            {
+                "conta": "31.2.1.1",
+                "descricao": "Subsidiárias"
+            },
+            {
+                "conta": "31.2.1.2",
+                "descricao": "Associadas"
+            },
+            {
+                "conta": "31.2.2",
+                "descricao": "Não grupo"
+            },
+            {
+                "conta": "31.2.2.1",
+                "descricao": "Nacionais"
+            },
+            {
+                "conta": "31.2.2.2",
+                "descricao": "Estrangeiros"
+            },
+            {
+                "conta": "31.3",
+                "descricao": "Clientes – títulos descontados"
+            },
+            {
+                "conta": "31.3.1",
+                "descricao": "Grupo"
+            },
+            {
+                "conta": "31.3.1.1",
+                "descricao": "Subsidiárias"
+            },
+            {
+                "conta": "31.3.1.2",
+                "descricao": "Associadas"
+            },
+            {
+                "conta": "31.3.2",
+                "descricao": "Não grupo"
+            },
+            {
+                "conta": "31.3.2.1",
+                "descricao": "Nacionais"
+            },
+            {
+                "conta": "31.3.2.2",
+                "descricao": "Estrangeiros"
+            },
+            {
+                "conta": "31.8",
+                "descricao": "Clientes de cobrança duvidosa"
+            },
+            {
+                "conta": "31.8.1",
+                "descricao": "Clientes – correntes"
+            },
+            {
+                "conta": "31.8.2",
+                "descricao": "Clientes – títulos"
+            },
+            {
+                "conta": "31.9",
+                "descricao": "Clientes - saldos credores"
+            },
+            {
+                "conta": "31.9.1",
+                "descricao": "Adiantamentos"
+            },
+            {
+                "conta": "31.9.2",
+                "descricao": "Embalagens a devolver"
+            },
+            {
+                "conta": "31.9.3",
+                "descricao": "Material à consignação"
+            },
+            {
+                "conta": "32.1",
+                "descricao": "Fornecedores – correntes"
+            },
+            {
+                "conta": "32.1.1",
+                "descricao": "Grupo"
+            },
+            {
+                "conta": "32.1.1.1",
+                "descricao": "Subsidiárias"
+            },
+            {
+                "conta": "32.1.1.2",
+                "descricao": "Associadas"
+            },
+            {
+                "conta": "32.1.2",
+                "descricao": "Não grupo"
+            },
+            {
+                "conta": "32.1.2.1",
+                "descricao": "Nacionais"
+            },
+            {
+                "conta": "32.1.2.2",
+                "descricao": "Estrangeiros"
+            },
+            {
+                "conta": "32.2",
+                "descricao": "Fornecedores – títulos a pagar"
+            },
+            {
+                "conta": "32.2.1",
+                "descricao": "Grupo"
+            },
+            {
+                "conta": "32.2.1.1",
+                "descricao": "Subsidiárias"
+            },
+            {
+                "conta": "32.2.1.2",
+                "descricao": "Associadas"
+            },
+            {
+                "conta": "32.2.2",
+                "descricao": "Não grupo"
+            },
+            {
+                "conta": "32.2.2.1",
+                "descricao": "Nacionais"
+            },
+            {
+                "conta": "32.2.2.2",
+                "descricao": "Estrangeiros"
+            },
+            {
+                "conta": "32.8",
+                "descricao": "Fornecedores – facturas em recepção e conferência"
+            },
+            {
+                "conta": "31.8.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "32.9",
+                "descricao": "Fornecedores – saldos devedores"
+            },
+            {
+                "conta": "32.9.1",
+                "descricao": "Adiantamentos"
+            },
+            {
+                "conta": "32.9.2",
+                "descricao": "Embalagens a devolver"
+            },
+            {
+                "conta": "32.9.3",
+                "descricao": "Material à consignação"
+            },
+            {
+                "conta": "33.\tEmpréstimos:",
+                "descricao": ""
+            },
+            {
+                "conta": "33.1",
+                "descricao": "Empréstimos bancários"
+            },
+            {
+                "conta": "33.1.1",
+                "descricao": "Moeda nacional"
+            },
+            {
+                "conta": "33.1.1.1",
+                "descricao": "Banco ___"
+            },
+            {
+                "conta": "33.1.2",
+                "descricao": "Moeda estrangeira"
+            },
+            {
+                "conta": "33.1.2.1",
+                "descricao": "Banco ___"
+            },
+            {
+                "conta": "33.2",
+                "descricao": "Empréstimos por obrigações"
+            },
+            {
+                "conta": "33.2.1",
+                "descricao": "Convertíveis"
+            },
+            {
+                "conta": "33.2.1.1",
+                "descricao": "Entidade ___"
+            },
+            {
+                "conta": "33.2.2",
+                "descricao": "Não convertíveis"
+            },
+            {
+                "conta": "33.2.2.1",
+                "descricao": "Entidade ___"
+            },
+            {
+                "conta": "33.3",
+                "descricao": "Empréstimos por títulos de participação"
+            },
+            {
+                "conta": "33.3.1",
+                "descricao": "Entidade ___"
+            },
+            {
+                "conta": "33.9",
+                "descricao": "Outros empréstimos obtidos"
+            },
+            {
+                "conta": "33.9.1",
+                "descricao": "Entidade ___"
+            },
+            {
+                "conta": "34.\tEstado:",
+                "descricao": ""
+            },
+            {
+                "conta": "34.1",
+                "descricao": "Imposto sobre os lucros"
+            },
+            {
+                "conta": "34.1.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "34.2",
+                "descricao": "Imposto de produção e consumo"
+            },
+            {
+                "conta": "34.2.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "34.3",
+                "descricao": "Imposto de rendimento de trabalho"
+            },
+            {
+                "conta": "34.3.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "34.4",
+                "descricao": "Imposto de circulação"
+            },
+            {
+                "conta": "34.4.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "34.5",
+                "descricao": "IVA"
+            },
+            {
+                "conta": "34.5.1",
+                "descricao": "IVA suportado:"
+            },
+            {
+                "conta": "34.5.1.1",
+                "descricao": "Existências;"
+            },
+            {
+                "conta": "34.5.1.2",
+                "descricao": "Meios fixos e investimentos;"
+            },
+            {
+                "conta": "34.5.1.3",
+                "descricao": "Outros bens e serviços."
+            },
+            {
+                "conta": "34.5.2",
+                "descricao": "IVA dedutível:"
+            },
+            {
+                "conta": "34.5.2.1",
+                "descricao": "Existências;"
+            },
+            {
+                "conta": "34.5.2.2",
+                "descricao": "Meios fixos e investimentos;"
+            },
+            {
+                "conta": "34.5.2.3",
+                "descricao": "Outros bens e serviços."
+            },
+            {
+                "conta": "34.5.3",
+                "descricao": "IVA liquidado:"
+            },
+            {
+                "conta": "34.5.3.1",
+                "descricao": "Operações gerais;"
+            },
+            {
+                "conta": "34.5.3.2",
+                "descricao": "Operações abrangidas pelo regime"
+            },
+            {
+                "conta": "34.5.3.3",
+                "descricao": "Autoconsumo e operações gratuitas;"
+            },
+            {
+                "conta": "34.5.3.4",
+                "descricao": "Operações especiais."
+            },
+            {
+                "conta": "34.5.4",
+                "descricao": "IVA regularizações:"
+            },
+            {
+                "conta": "34.5.4.1",
+                "descricao": "Mensais a favor do sujeito passivo;"
+            },
+            {
+                "conta": "34.5.4.2",
+                "descricao": "Mensais a favor do Estado;"
+            },
+            {
+                "conta": "34.5.4.",
+                "descricao": "3 Anual por cálculo do pró rata"
+            },
+            {
+                "conta": "34.5.4.4",
+                "descricao": "Outras regularizações anuais;"
+            },
+            {
+                "conta": "34.5.5",
+                "descricao": "IVA apuramento:"
+            },
+            {
+                "conta": "34.5.5.1",
+                "descricao": "Apuramento do regime de IVA"
+            },
+            {
+                "conta": "34.5.5.2",
+                "descricao": "Apuramento do regime de IVA de"
+            },
+            {
+                "conta": "34.5.6",
+                "descricao": "IVA a pagar:"
+            },
+            {
+                "conta": "34.5.6.1",
+                "descricao": "IVA a pagar de apuramento;"
+            },
+            {
+                "conta": "34.5.6.2",
+                "descricao": "IVA a pagar de cativo;"
+            },
+            {
+                "conta": "34.5.6.3",
+                "descricao": "IVA a pagar de liquidações oficiosas."
+            },
+            {
+                "conta": "34.5.7",
+                "descricao": "IVA a recuperar:"
+            },
+            {
+                "conta": "34.5.7.1",
+                "descricao": "IVA a recuperar de apuramentos;"
+            },
+            {
+                "conta": "34.5.7.2",
+                "descricao": "IVA a recuperar de cativo."
+            },
+            {
+                "conta": "34.5.8",
+                "descricao": "IVA reembolsos pedidos:"
+            },
+            {
+                "conta": "34.5.8.1",
+                "descricao": "Reembolsos pedidos;"
+            },
+            {
+                "conta": "34.5.8.2",
+                "descricao": "Reembolsos deferidos;"
+            },
+            {
+                "conta": "34.5.8.3",
+                "descricao": "Reembolsos indeferidos;"
+            },
+            {
+                "conta": "34.5.8.4",
+                "descricao": "Reembolsos reclamados, recorridos"
+            },
+            {
+                "conta": "34.5.9",
+                "descricao": "IVA Liquidações oficiosas:"
+            },
+            {
+                "conta": "34.6",
+                "descricao": "Certificado de crédito fiscal a compensar"
+            },
+            {
+                "conta": "34.8",
+                "descricao": "Subsídios a preços"
+            },
+            {
+                "conta": "34.8.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "34.9",
+                "descricao": "Outros impostos"
+            },
+            {
+                "conta": "34.9.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "35.\tEntidades",
+                "descricao": "participantes e participadas:"
+            },
+            {
+                "conta": "35.1",
+                "descricao": "Entidades participantes"
+            },
+            {
+                "conta": "35.1.1",
+                "descricao": "Estado"
+            },
+            {
+                "conta": "35.1.1.1",
+                "descricao": "c/subscrição"
+            },
+            {
+                "conta": "35.1.1.2",
+                "descricao": "c/adiantamentos sobre lucros"
+            },
+            {
+                "conta": "35.1.1.3",
+                "descricao": "c/lucros"
+            },
+            {
+                "conta": "35.1.1.4",
+                "descricao": "Empréstimos"
+            },
+            {
+                "conta": "35.1.2",
+                "descricao": "Empresas do grupo – subsidiárias"
+            },
+            {
+                "conta": "35.1.2.1",
+                "descricao": "c/subscrição"
+            },
+            {
+                "conta": "35.1.2.2",
+                "descricao": "c/adiantamentos sobre lucros"
+            },
+            {
+                "conta": "35.1.2.3",
+                "descricao": "c/lucros"
+            },
+            {
+                "conta": "35.1.2.4",
+                "descricao": "Empréstimos"
+            },
+            {
+                "conta": "35.1.3",
+                "descricao": "Empresas do grupo – associadas"
+            },
+            {
+                "conta": "35.1.3.1",
+                "descricao": "c/subscrição"
+            },
+            {
+                "conta": "35.1.3.2",
+                "descricao": "c/adiantamentos sobre lucros"
+            },
+            {
+                "conta": "35.1.3.3",
+                "descricao": "c/lucros"
+            },
+            {
+                "conta": "35.1.3.4",
+                "descricao": "Empréstimos"
+            },
+            {
+                "conta": "35.1.4",
+                "descricao": "Outros"
+            },
+            {
+                "conta": "35.1.4.1",
+                "descricao": "c/subscrição"
+            },
+            {
+                "conta": "35.1.4.2",
+                "descricao": "c/adiantamentos sobre lucros"
+            },
+            {
+                "conta": "35.1.4.3",
+                "descricao": "c/lucros"
+            },
+            {
+                "conta": "35.1.4.4",
+                "descricao": "Empréstimos"
+            },
+            {
+                "conta": "35.2",
+                "descricao": "Entidades participadas"
+            },
+            {
+                "conta": "35.2.1",
+                "descricao": "Estado"
+            },
+            {
+                "conta": "35.2.1.1",
+                "descricao": "c/subscrição"
+            },
+            {
+                "conta": "35.2.1.2",
+                "descricao": "c/adiantamentos sobre lucros"
+            },
+            {
+                "conta": "35.2.1.3",
+                "descricao": "c/lucros"
+            },
+            {
+                "conta": "35.2.1.4",
+                "descricao": "Empréstimos"
+            },
+            {
+                "conta": "35.2.2",
+                "descricao": "Empresas do grupo – subsidiárias"
+            },
+            {
+                "conta": "35.2.2.1",
+                "descricao": "c/subscrição"
+            },
+            {
+                "conta": "35.2.2.2",
+                "descricao": "c/adiantamentos sobre lucros"
+            },
+            {
+                "conta": "35.2.2.3",
+                "descricao": "c/lucros"
+            },
+            {
+                "conta": "35.2.2.4",
+                "descricao": "Empréstimos"
+            },
+            {
+                "conta": "35.2.3",
+                "descricao": "Empresas do grupo – associadas"
+            },
+            {
+                "conta": "35.2.3.1",
+                "descricao": "c/subscrição"
+            },
+            {
+                "conta": "35.2.3.2",
+                "descricao": "c/adiantamentos sobre lucros"
+            },
+            {
+                "conta": "35.2.3.3",
+                "descricao": "c/lucros"
+            },
+            {
+                "conta": "35.2.3.4",
+                "descricao": "Empréstimos"
+            },
+            {
+                "conta": "35.2.4",
+                "descricao": "Outros"
+            },
+            {
+                "conta": "35.2.4.1",
+                "descricao": "c/subscrição"
+            },
+            {
+                "conta": "35.2.4.2",
+                "descricao": "c/adiantamentos sobre lucros"
+            },
+            {
+                "conta": "35.2.4.3",
+                "descricao": "c/lucros"
+            },
+            {
+                "conta": "35.2.4.4",
+                "descricao": "Empréstimos"
+            },
+            {
+                "conta": "36.\tPessoal:",
+                "descricao": ""
+            },
+            {
+                "conta": "36.1",
+                "descricao": "Pessoal – remunerações"
+            },
+            {
+                "conta": "36.1.1",
+                "descricao": "Órgãos sociais"
+            },
+            {
+                "conta": "36.1.1.1",
+                "descricao": "......................................................"
+            },
+            {
+                "conta": "36.1.2",
+                "descricao": "Empregados"
+            },
+            {
+                "conta": "36.1.2.1",
+                "descricao": "......................................................"
+            },
+            {
+                "conta": "36.2",
+                "descricao": "Pessoal – participação nos resultados"
+            },
+            {
+                "conta": "36.2.1",
+                "descricao": "Órgãos sociais"
+            },
+            {
+                "conta": "36.2.1.1",
+                "descricao": "......................................................"
+            },
+            {
+                "conta": "36.2.2",
+                "descricao": "Empregados"
+            },
+            {
+                "conta": "36.2.2.1",
+                "descricao": "......................................................"
+            },
+            {
+                "conta": "36.3",
+                "descricao": "Pessoal – adiantamentos"
+            },
+            {
+                "conta": "36.3.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "36.9",
+                "descricao": "Pessoal – outros"
+            },
+            {
+                "conta": "36.9.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "37.\tOutros",
+                "descricao": "valores a receber e a pagar:"
+            },
+            {
+                "conta": "37.1",
+                "descricao": "Compras de imobilizado"
+            },
+            {
+                "conta": "37.1.1",
+                "descricao": "Corpóreo"
+            },
+            {
+                "conta": "37.1.2",
+                "descricao": "Incorpóreo"
+            },
+            {
+                "conta": "37.1.3",
+                "descricao": "Financeiro"
+            }
+        ]
+    },
+    {
+        "conta": "38 Diário da República",
+        "descricao": "Plano Geral de Contabilidade",
+        "subcontas": [
+            {
+                "conta": "37.2",
+                "descricao": "Vendas de imobilizado"
+            },
+            {
+                "conta": "37.2.1",
+                "descricao": "Corpóreo"
+            },
+            {
+                "conta": "37.2.2",
+                "descricao": "Incorpóreo"
+            },
+            {
+                "conta": "37.2.3",
+                "descricao": "Financeiro"
+            },
+            {
+                "conta": "37.3",
+                "descricao": "Proveitos a facturar"
+            },
+            {
+                "conta": "37.3.1",
+                "descricao": "Vendas"
+            },
+            {
+                "conta": "37.3.2",
+                "descricao": "Prestações de serviço"
+            },
+            {
+                "conta": "37.3.3",
+                "descricao": "Juros"
+            },
+            {
+                "conta": "37.4",
+                "descricao": "Encargos a repartir por períodos futuros"
+            },
+            {
+                "conta": "37.4.1",
+                "descricao": "Descontos de emissão de obrigações"
+            },
+            {
+                "conta": "37.4.2",
+                "descricao": "Descontos de emissão de títulos de"
+            },
+            {
+                "conta": "37.5",
+                "descricao": "Encargos a pagar"
+            },
+            {
+                "conta": "37.5.1",
+                "descricao": "Remunerações"
+            },
+            {
+                "conta": "37.5.2",
+                "descricao": "Juros"
+            },
+            {
+                "conta": "37.6",
+                "descricao": "Proveitos a repartir por períodos futuros"
+            },
+            {
+                "conta": "37.6.1",
+                "descricao": "Prémios de emissão de obrigações"
+            },
+            {
+                "conta": "37.6.2",
+                "descricao": "Prémios de emissão de títulos de"
+            },
+            {
+                "conta": "37.6.3",
+                "descricao": "Subsídios para investimento"
+            },
+            {
+                "conta": "37.6.4",
+                "descricao": "Diferenças de câmbio favoráveis reversíveis"
+            },
+            {
+                "conta": "37.7",
+                "descricao": "Contas transitórias"
+            },
+            {
+                "conta": "37.7.1",
+                "descricao": "Transacções entre a sede e as dependências"
+            },
+            {
+                "conta": "37.9",
+                "descricao": "Outros valores a receber e a pagar"
+            },
+            {
+                "conta": "37.9.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "38.\tProvisões",
+                "descricao": "para cobranças duvidosas:"
+            },
+            {
+                "conta": "38.1",
+                "descricao": "Provisões para clientes"
+            },
+            {
+                "conta": "38.1.1",
+                "descricao": "Clientes – correntes"
+            },
+            {
+                "conta": "38.1.1.1",
+                "descricao": "Grupo"
+            },
+            {
+                "conta": "38.1.1.2",
+                "descricao": "Não grupo"
+            },
+            {
+                "conta": "38.1.2",
+                "descricao": "Cliente – títulos a receber"
+            },
+            {
+                "conta": "38.1.2.1",
+                "descricao": "Grupo"
+            },
+            {
+                "conta": "38.1.2.2",
+                "descricao": "Não grupo"
+            },
+            {
+                "conta": "38.1.3",
+                "descricao": "Clientes – cobrança duvidosa"
+            },
+            {
+                "conta": "38.1.3.1",
+                "descricao": "Grupo"
+            },
+            {
+                "conta": "38.1.3.2",
+                "descricao": "Não grupo"
+            },
+            {
+                "conta": "38.2",
+                "descricao": "Provisões para saldos devedores de fornecedores"
+            },
+            {
+                "conta": "38.2.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "38.3",
+                "descricao": "Provisões p/participantes e participadas"
+            },
+            {
+                "conta": "38.3.1",
+                "descricao": "Participantes"
+            },
+            {
+                "conta": "38.3.2",
+                "descricao": "Participadas"
+            },
+            {
+                "conta": "38.4",
+                "descricao": "Provisões p/dívidas do pessoal"
+            },
+            {
+                "conta": "38.4.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "38.9",
+                "descricao": "Provisões para outros saldos a receber"
+            },
+            {
+                "conta": "38.9.1",
+                "descricao": "Vendas imobilizado"
+            },
+            {
+                "conta": "39.\tProvisões",
+                "descricao": "para outros riscos e encargos:"
+            },
+            {
+                "conta": "39.1",
+                "descricao": "Provisões para pensões"
+            },
+            {
+                "conta": "39.1.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "39.2",
+                "descricao": "Provisões para processos judiciais em curso"
+            },
+            {
+                "conta": "39.2.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "39.3",
+                "descricao": "Provisões para acidentes de trabalho"
+            },
+            {
+                "conta": "39.3.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "39.4",
+                "descricao": "Provisões para garantias dadas a clientes"
+            },
+            {
+                "conta": "39.4.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "39.9",
+                "descricao": "Provisões para outros riscos e encargos"
+            },
+            {
+                "conta": "39.9.1",
+                "descricao": "....................................................................."
+            }
+        ]
+    },
+    {
+        "conta": "4",
+        "descricao": "Meios monetários:",
+        "subcontas": [
+            {
+                "conta": "41.",
+                "descricao": "Títulos negociáveis"
+            },
+            {
+                "conta": "42.",
+                "descricao": "Depósitos a prazo"
+            },
+            {
+                "conta": "43.",
+                "descricao": "Depósitos à ordém"
+            },
+            {
+                "conta": "44.",
+                "descricao": "Outros depósitos"
+            },
+            {
+                "conta": "45.",
+                "descricao": "Caixa"
+            },
+            {
+                "conta": "46.",
+                "descricao": "......................................................................................."
+            },
+            {
+                "conta": "47.",
+                "descricao": "......................................................................................."
+            },
+            {
+                "conta": "48.",
+                "descricao": "Conta transitória"
+            },
+            {
+                "conta": "49.",
+                "descricao": "Provisões para aplicações de tesouraria"
+            },
+            {
+                "conta": "41.\tTítulos",
+                "descricao": "negociáveis:"
+            },
+            {
+                "conta": "41.1",
+                "descricao": "Acções"
+            },
+            {
+                "conta": "41.1.1",
+                "descricao": "Empresas do grupo"
+            },
+            {
+                "conta": "41.1.2",
+                "descricao": "Associadas"
+            },
+            {
+                "conta": "4",
+                "descricao": "1.1.3 Outras empresas"
+            },
+            {
+                "conta": "41.2",
+                "descricao": "Obrigações"
+            },
+            {
+                "conta": "41.2.1",
+                "descricao": "Empresas do grupo"
+            },
+            {
+                "conta": "41.2.2",
+                "descricao": "Associadas"
+            },
+            {
+                "conta": "41.2.3",
+                "descricao": "Outras empresas"
+            },
+            {
+                "conta": "41.3",
+                "descricao": "Títulos da dívida pública"
+            },
+            {
+                "conta": "41.3.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "42.",
+                "descricao": "Depósitos a prazo:"
+            },
+            {
+                "conta": "42.1",
+                "descricao": "Moeda nacional"
+            },
+            {
+                "conta": "42.1.1",
+                "descricao": "Banco ___"
+            },
+            {
+                "conta": "42.1.2",
+                "descricao": "Banco ___"
+            },
+            {
+                "conta": "42.2",
+                "descricao": "Moeda estrangeira"
+            },
+            {
+                "conta": "42.2.1",
+                "descricao": "Banco ___"
+            },
+            {
+                "conta": "42.2.2",
+                "descricao": "Banco ___"
+            },
+            {
+                "conta": "43.",
+                "descricao": "Depósitos à ordem:"
+            },
+            {
+                "conta": "43.1",
+                "descricao": "Moeda nacional"
+            },
+            {
+                "conta": "43.1.1",
+                "descricao": "Banco ___"
+            },
+            {
+                "conta": "43.1.2",
+                "descricao": "Banco ___"
+            },
+            {
+                "conta": "43.2",
+                "descricao": "Moeda estrangeira"
+            },
+            {
+                "conta": "43.2.1",
+                "descricao": "Banco ___"
+            },
+            {
+                "conta": "43.2.2",
+                "descricao": "Banco ___"
+            },
+            {
+                "conta": "44.\tOutros",
+                "descricao": "depósitos:"
+            },
+            {
+                "conta": "44.1",
+                "descricao": "Moeda nacional"
+            },
+            {
+                "conta": "44.1.1",
+                "descricao": "Banco ___"
+            },
+            {
+                "conta": "44.1.2",
+                "descricao": "Banco ___"
+            },
+            {
+                "conta": "44.2",
+                "descricao": "Moeda estrangeira"
+            },
+            {
+                "conta": "44.2.1",
+                "descricao": "Banco ___"
+            },
+            {
+                "conta": "44.2.2",
+                "descricao": "Banco ___"
+            },
+            {
+                "conta": "45.\tCaixa",
+                "descricao": ""
+            },
+            {
+                "conta": "45.1",
+                "descricao": "Fundo fixo"
+            },
+            {
+                "conta": "45.1.1",
+                "descricao": "Caixa ___"
+            },
+            {
+                "conta": "45.1.2",
+                "descricao": "Caixa ___"
+            },
+            {
+                "conta": "45.2",
+                "descricao": "Valores para depositar"
+            },
+            {
+                "conta": "45.2.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "45.3",
+                "descricao": "Valores destinados a pagamentos específicos"
+            },
+            {
+                "conta": "45.3.1",
+                "descricao": "Salários"
+            },
+            {
+                "conta": "46.",
+                "descricao": "......................................................................................."
+            },
+            {
+                "conta": "46.1",
+                "descricao": ".............................................................................."
+            },
+            {
+                "conta": "47.",
+                "descricao": "......................................................................................."
+            },
+            {
+                "conta": "47.1",
+                "descricao": ".............................................................................."
+            },
+            {
+                "conta": "48.\tConta",
+                "descricao": "transitória"
+            },
+            {
+                "conta": "48.1",
+                "descricao": "Banco ___"
+            },
+            {
+                "conta": "48.2",
+                "descricao": "Banco ___"
+            },
+            {
+                "conta": "49.\tProvisões",
+                "descricao": "para aplicações de tesouraria"
+            },
+            {
+                "conta": "49.1",
+                "descricao": "Títulos negociáveis"
+            },
+            {
+                "conta": "49.1.1",
+                "descricao": "Acções"
+            },
+            {
+                "conta": "49.1.2",
+                "descricao": "Obrigações"
+            },
+            {
+                "conta": "49.1.3",
+                "descricao": "Títulos da dívida pública"
+            },
+            {
+                "conta": "49.2",
+                "descricao": "Outras aplicações de tesouraria"
+            },
+            {
+                "conta": "49.2.1",
+                "descricao": "....................................................................."
+            }
+        ]
+    },
+    {
+        "conta": "5",
+        "descricao": "Capital e reservas",
+        "subcontas": [
+            {
+                "conta": "51.",
+                "descricao": "Capital"
+            },
+            {
+                "conta": "52.",
+                "descricao": "Acções/quotas próprias"
+            },
+            {
+                "conta": "53.",
+                "descricao": "Prémios de emissão"
+            },
+            {
+                "conta": "54.",
+                "descricao": "Prestações suplementares"
+            },
+            {
+                "conta": "55.",
+                "descricao": "Reservas legais"
+            },
+            {
+                "conta": "56.",
+                "descricao": "Reservas de reavaliação"
+            },
+            {
+                "conta": "57.",
+                "descricao": "Reservas com fins especiais"
+            },
+            {
+                "conta": "58.",
+                "descricao": "Reservas livres"
+            },
+            {
+                "conta": "59.",
+                "descricao": "......................................................................................."
+            },
+            {
+                "conta": "51.\tCapital:",
+                "descricao": ""
+            },
+            {
+                "conta": "52.\tAcções/quotas",
+                "descricao": "próprias:"
+            },
+            {
+                "conta": "52.1",
+                "descricao": "Valor nominal"
+            },
+            {
+                "conta": "52.1.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "52.2",
+                "descricao": "Descontos"
+            },
+            {
+                "conta": "52.2.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "52.3",
+                "descricao": "Prémios"
+            },
+            {
+                "conta": "52.3.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "53.\tPrémios",
+                "descricao": "de emissão:"
+            },
+            {
+                "conta": "54.\tPrestações",
+                "descricao": "suplementares:"
+            },
+            {
+                "conta": "55.\tReservas",
+                "descricao": "legais:"
+            },
+            {
+                "conta": "56.\tReservas",
+                "descricao": "de reavaliação:"
+            },
+            {
+                "conta": "56.1",
+                "descricao": "Legais"
+            },
+            {
+                "conta": "56.1.1",
+                "descricao": "Decreto-Lei n.º ___"
+            },
+            {
+                "conta": "56.1.2",
+                "descricao": "Decreto-Lei n.º ___"
+            },
+            {
+                "conta": "56.2",
+                "descricao": "Autónomas"
+            },
+            {
+                "conta": "56.2.1",
+                "descricao": "Avaliação"
+            },
+            {
+                "conta": "56.2.1",
+                "descricao": "Realização"
+            }
+        ]
+    },
+    {
+        "conta": "40 Diário da República",
+        "descricao": "Plano Geral de Contabilidade",
+        "subcontas": [
+            {
+                "conta": "57.\tReservas",
+                "descricao": "com fins especiais:"
+            },
+            {
+                "conta": "58.\tReservas",
+                "descricao": "livres:"
+            },
+            {
+                "conta": "59.",
+                "descricao": "......................................................................................."
+            }
+        ]
+    },
+    {
+        "conta": "6",
+        "descricao": "Proveitos e ganhos por natureza:",
+        "subcontas": [
+            {
+                "conta": "61.",
+                "descricao": "Vendas"
+            },
+            {
+                "conta": "62.",
+                "descricao": "Prestações de serviços"
+            },
+            {
+                "conta": "63.",
+                "descricao": "Outros proveitos operacionais"
+            },
+            {
+                "conta": "64.",
+                "descricao": "Variação nos inventários de produtos acabados e de"
+            },
+            {
+                "conta": "65.",
+                "descricao": "Trabalhos para a própria empresa"
+            },
+            {
+                "conta": "66.",
+                "descricao": "Proveitos e ganhos financeiros gerais"
+            },
+            {
+                "conta": "67.",
+                "descricao": "Proveitos e ganhos financeiros em filiais e associadas"
+            },
+            {
+                "conta": "68.",
+                "descricao": "Outros proveitos não operacionais"
+            },
+            {
+                "conta": "69.",
+                "descricao": "Proveitos e ganhos extraordinários"
+            },
+            {
+                "conta": "61.\tVendas:",
+                "descricao": ""
+            },
+            {
+                "conta": "61.1",
+                "descricao": "Produtos acabados e intermédios"
+            },
+            {
+                "conta": "61.1.1",
+                "descricao": "Mercado nacional"
+            },
+            {
+                "conta": "61.1.2",
+                "descricao": "Mercado estrangeiro"
+            },
+            {
+                "conta": "61.2",
+                "descricao": "Sub-produtos, desperdícios, resíduos e refugos"
+            },
+            {
+                "conta": "61.2.1",
+                "descricao": "Mercado nacional"
+            },
+            {
+                "conta": "61.2.2",
+                "descricao": "Mercado estrangeiro"
+            },
+            {
+                "conta": "61.3",
+                "descricao": "Mercadorias"
+            },
+            {
+                "conta": "61.3.1",
+                "descricao": "Mercado nacional"
+            },
+            {
+                "conta": "61.3.2",
+                "descricao": "Mercado estrangeiro"
+            },
+            {
+                "conta": "61.4",
+                "descricao": "Embalagens de consumo"
+            },
+            {
+                "conta": "61.4.1",
+                "descricao": "Mercado nacional"
+            },
+            {
+                "conta": "61.4.2",
+                "descricao": "Mercado estrangeiro"
+            },
+            {
+                "conta": "61.5",
+                "descricao": "Subsídios a preços"
+            },
+            {
+                "conta": "61.5.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "61.7",
+                "descricao": "Devoluções"
+            },
+            {
+                "conta": "61.7.1",
+                "descricao": "Mercado nacional"
+            },
+            {
+                "conta": "61.7.2",
+                "descricao": "Mercado estrangeiro"
+            },
+            {
+                "conta": "61.8",
+                "descricao": "Descontos e abatimentos"
+            },
+            {
+                "conta": "61.8.1",
+                "descricao": "Mercado nacional"
+            },
+            {
+                "conta": "61.8.2",
+                "descricao": "Mercado estrangeiro"
+            },
+            {
+                "conta": "61.9",
+                "descricao": "Transferência para resultados operacionais"
+            },
+            {
+                "conta": "62.\tPrestações",
+                "descricao": "de serviço:"
+            },
+            {
+                "conta": "62.1",
+                "descricao": "Serviços principais"
+            },
+            {
+                "conta": "62.1.1",
+                "descricao": "Mercado nacional"
+            },
+            {
+                "conta": "62.1.2",
+                "descricao": "Mercado estrangeiro"
+            },
+            {
+                "conta": "62.2",
+                "descricao": "Serviços secundários"
+            },
+            {
+                "conta": "62.2.1",
+                "descricao": "Mercado nacional"
+            },
+            {
+                "conta": "62.2.2",
+                "descricao": "Mercado estrangeiro"
+            },
+            {
+                "conta": "62.8",
+                "descricao": "Descontos e abatimentos"
+            },
+            {
+                "conta": "62.8.1",
+                "descricao": "Mercado nacional"
+            },
+            {
+                "conta": "62.8.2",
+                "descricao": "Mercado estrangeiro"
+            },
+            {
+                "conta": "62.9",
+                "descricao": "Transferência para resultados operacionais"
+            },
+            {
+                "conta": "63.\tOutros",
+                "descricao": "proveitos operacionais:"
+            },
+            {
+                "conta": "63.1",
+                "descricao": "Serviços suplementares"
+            },
+            {
+                "conta": "63.1.1",
+                "descricao": "Aluguer de equipamento"
+            },
+            {
+                "conta": "63.1.2",
+                "descricao": "Cedência de pessoal"
+            },
+            {
+                "conta": "63.1.3",
+                "descricao": "Cedência de energia"
+            },
+            {
+                "conta": "63.1.4",
+                "descricao": "Estudos, projectos e assistência técnica"
+            },
+            {
+                "conta": "63.2",
+                "descricao": "Royalties"
+            },
+            {
+                "conta": "63.3",
+                "descricao": "Subsídios à exploração"
+            },
+            {
+                "conta": "63.4",
+                "descricao": "Subsídios a investimento"
+            },
+            {
+                "conta": "63.5",
+                "descricao": "IVA"
+            },
+            {
+                "conta": "63.8",
+                "descricao": "Outros proveitos e ganhos operacionais"
+            },
+            {
+                "conta": "63.8.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "63.9",
+                "descricao": "Transferência para resultados operacionais"
+            },
+            {
+                "conta": "64.\tVariação",
+                "descricao": "nos inventários de produtos acabados e de"
+            },
+            {
+                "conta": "64.1",
+                "descricao": "Produtos e trabalhos em curso"
+            },
+            {
+                "conta": "64.1.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "64.2",
+                "descricao": "Produtos acabados"
+            },
+            {
+                "conta": "64.2.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "64.3",
+                "descricao": "Produtos intermédios"
+            },
+            {
+                "conta": "64.3.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "64.9",
+                "descricao": "Transferência para resultados operacionais"
+            },
+            {
+                "conta": "65.\tTrabalhos",
+                "descricao": "para a própria empresa:"
+            },
+            {
+                "conta": "65.1",
+                "descricao": "Para imobilizado"
+            },
+            {
+                "conta": "65.1.1",
+                "descricao": "Corpóreo"
+            },
+            {
+                "conta": "65.1.2",
+                "descricao": "Incorpóreo"
+            },
+            {
+                "conta": "65.1.3",
+                "descricao": "Financeiro"
+            },
+            {
+                "conta": "65.1.4",
+                "descricao": "Em curso"
+            },
+            {
+                "conta": "65.2",
+                "descricao": "Para encargos a repartir por exercícios futuros"
+            },
+            {
+                "conta": "65.2.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "65.9",
+                "descricao": "Transferência para resultados operacionais"
+            },
+            {
+                "conta": "66.\tProveitos",
+                "descricao": "e ganhos financeiros gerais:"
+            },
+            {
+                "conta": "66.1",
+                "descricao": "Juros"
+            },
+            {
+                "conta": "66.1.1",
+                "descricao": "De investimentos financeiros"
+            },
+            {
+                "conta": "66.1.1.1",
+                "descricao": "Obrigações"
+            },
+            {
+                "conta": "66.1.1.3",
+                "descricao": "Títulos de participação"
+            },
+            {
+                "conta": "66.1.1.4",
+                "descricao": "Empréstimos"
+            },
+            {
+                "conta": "66.1.1.9",
+                "descricao": "Outros"
+            },
+            {
+                "conta": "66.1.2",
+                "descricao": "De mora relativos a dívidas de terceiros"
+            },
+            {
+                "conta": "66.1.2.1",
+                "descricao": "Dívidas recebidas a prestações"
+            },
+            {
+                "conta": "66.1.2.2",
+                "descricao": "De empréstimos a terceiros"
+            },
+            {
+                "conta": "66.1.5",
+                "descricao": "De aplicações de tesouraria[9]"
+            },
+            {
+                "conta": "66.1.4",
+                "descricao": "Desconto de títulos[8]"
+            },
+            {
+                "conta": "66.2",
+                "descricao": "Diferenças de câmbio favoráveis"
+            },
+            {
+                "conta": "66.2.1",
+                "descricao": "Realizadas"
+            },
+            {
+                "conta": "66.2.2",
+                "descricao": "Não realizadas"
+            },
+            {
+                "conta": "66.3",
+                "descricao": "Descontos de pronto pagamento obtidos"
+            },
+            {
+                "conta": "66.3.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "66.4",
+                "descricao": "Rendimentos de investimentos em imóveis"
+            },
+            {
+                "conta": "66.4.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "66.5",
+                "descricao": "Rendimento de participações de capital"
+            },
+            {
+                "conta": "66.5.1",
+                "descricao": "Acções, quotas em outras empresas"
+            },
+            {
+                "conta": "66.5.2",
+                "descricao": "Acções, quotas incluídas nos fundos"
+            },
+            {
+                "conta": "66.5.3",
+                "descricao": "Acções, quotas incluídas nos títulos"
+            },
+            {
+                "conta": "66.6",
+                "descricao": "Ganhos na alienação de aplicações financeiras"
+            },
+            {
+                "conta": "66.6.1",
+                "descricao": "Investimentos financeiros"
+            },
+            {
+                "conta": "66.6.1.1",
+                "descricao": "Subsidiárias"
+            },
+            {
+                "conta": "66.6.1.2",
+                "descricao": "Associadas"
+            },
+            {
+                "conta": "66.6.1.3",
+                "descricao": "Outras empresas"
+            },
+            {
+                "conta": "66.6.1.4",
+                "descricao": "Imóveis"
+            },
+            {
+                "conta": "66.6.1.5",
+                "descricao": "Fundos"
+            },
+            {
+                "conta": "66.6.1.9",
+                "descricao": "Outros investimentos"
+            },
+            {
+                "conta": "66.6.2",
+                "descricao": "Títulos negociáveis"
+            },
+            {
+                "conta": "66.7",
+                "descricao": "Reposição de provisões"
+            },
+            {
+                "conta": "66.7.1",
+                "descricao": "Investimentos financeiros"
+            },
+            {
+                "conta": "66.7.1.1",
+                "descricao": "Subsidiárias"
+            },
+            {
+                "conta": "66.7.1.2",
+                "descricao": "Associadas"
+            },
+            {
+                "conta": "66.7.1.3",
+                "descricao": "Outras empresas"
+            },
+            {
+                "conta": "66.7.1.4",
+                "descricao": "Fundos"
+            },
+            {
+                "conta": "66.7.1.9",
+                "descricao": "Outros investimentos"
+            },
+            {
+                "conta": "66.7.2",
+                "descricao": "Aplicações de tesouraria"
+            },
+            {
+                "conta": "66.7.2.1",
+                "descricao": "Títulos negociáveis"
+            },
+            {
+                "conta": "66.7.2.2",
+                "descricao": "Depósitos a prazo"
+            },
+            {
+                "conta": "66.7.2.3",
+                "descricao": "Outros depósitos"
+            },
+            {
+                "conta": "66.7.2.9",
+                "descricao": "Outros investimentos"
+            },
+            {
+                "conta": "66.9",
+                "descricao": "Transferência para resultados financeiros[10]"
+            },
+            {
+                "conta": "67.\tProveitos",
+                "descricao": "e ganhos financeiros em filiais e associadas:"
+            },
+            {
+                "conta": "67.1",
+                "descricao": "Rendimento de participações de capital"
+            },
+            {
+                "conta": "67.1.1",
+                "descricao": "Subsidiárias"
+            },
+            {
+                "conta": "67.1.2",
+                "descricao": "Associadas"
+            },
+            {
+                "conta": "67.9",
+                "descricao": "Transferência para resultados em filiais e associadas"
+            },
+            {
+                "conta": "68.\tOutros",
+                "descricao": "proveitos e ganhos não operacionais:"
+            },
+            {
+                "conta": "68.1",
+                "descricao": "Reposição de provisões"
+            },
+            {
+                "conta": "68.1.1",
+                "descricao": "Existências"
+            },
+            {
+                "conta": "68.1.1.1",
+                "descricao": "Matérias-primas subsidiárias e de"
+            },
+            {
+                "conta": "68.1.1.2",
+                "descricao": "Produtos e trabalhos em curso"
+            },
+            {
+                "conta": "68.1.1.3",
+                "descricao": "Produtos acabados e intermédios"
+            },
+            {
+                "conta": "68.1.1.4",
+                "descricao": "Sub-produtos, desperdícios, resí-"
+            },
+            {
+                "conta": "68.1.1.5",
+                "descricao": "Mercadorias"
+            },
+            {
+                "conta": "68.1.2",
+                "descricao": "Cobranças duvidosas"
+            },
+            {
+                "conta": "68.1.2.1",
+                "descricao": "Clientes"
+            },
+            {
+                "conta": "68.1.2.2",
+                "descricao": "Clientes – títulos a receber"
+            },
+            {
+                "conta": "68.1.2.3",
+                "descricao": "Clientes – cobrança duvidosa"
+            },
+            {
+                "conta": "68.1.2.4",
+                "descricao": "Saldos devedores de fornecedores"
+            },
+            {
+                "conta": "68.1.2.5",
+                "descricao": "Participantes e participadas"
+            },
+            {
+                "conta": "68.1.2.6",
+                "descricao": "Dívidas do Pessoal"
+            },
+            {
+                "conta": "68.1.2.9",
+                "descricao": "Outros saldos a receber"
+            },
+            {
+                "conta": "68.1.3",
+                "descricao": "Riscos e encargos"
+            },
+            {
+                "conta": "68.1.3.1",
+                "descricao": "Pensões"
+            },
+            {
+                "conta": "68.1.3.2",
+                "descricao": "Processos judiciais em curso"
+            },
+            {
+                "conta": "68.1.3.3",
+                "descricao": "Acidentes de trabalho"
+            },
+            {
+                "conta": "68.1.3.4",
+                "descricao": "Garantias dadas a clientes"
+            },
+            {
+                "conta": "68.1.3.9",
+                "descricao": "Outros riscos e encargos"
+            },
+            {
+                "conta": "68.2",
+                "descricao": "Anulação de amortizações extraordinárias"
+            },
+            {
+                "conta": "68.2.1",
+                "descricao": "Imobilizações corpóreas"
+            },
+            {
+                "conta": "68.2.2",
+                "descricao": "Imobilizações incorpóreas"
+            },
+            {
+                "conta": "68.3",
+                "descricao": "Ganhos em imobilizações"
+            },
+            {
+                "conta": "68.3.1",
+                "descricao": "Venda de imobilizações corpóreas"
+            },
+            {
+                "conta": "68.3.2",
+                "descricao": "Venda de imobilizações incorpóreas"
+            },
+            {
+                "conta": "68.4",
+                "descricao": "Ganhos em existências"
+            },
+            {
+                "conta": "68.4.1",
+                "descricao": "Sobras"
+            },
+            {
+                "conta": "68.5",
+                "descricao": "Recuperação de dívidas"
+            },
+            {
+                "conta": "68.5.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "68.6",
+                "descricao": "Benefícios de penalidades contratuais"
+            },
+            {
+                "conta": "68.6.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "68.7",
+                "descricao": ".............................................................................."
+            },
+            {
+                "conta": "68.8",
+                "descricao": "Descontinuidade de operações"
+            },
+            {
+                "conta": "68.9",
+                "descricao": "Alterações de políticas contabilísticas"
+            },
+            {
+                "conta": "68.10",
+                "descricao": "Correcções relativas a exercícios anteriores"
+            },
+            {
+                "conta": "68.10.1",
+                "descricao": "Estimativa impostos"
+            },
+            {
+                "conta": "68.10.2",
+                "descricao": "Restituição de impostos"
+            },
+            {
+                "conta": "68.11",
+                "descricao": "Outros ganhos e perdas não operacionais"
+            },
+            {
+                "conta": "68.11.1",
+                "descricao": "Donativos"
+            },
+            {
+                "conta": "68.19",
+                "descricao": "Transferência para resultados não operacionais"
+            }
+        ]
+    },
+    {
+        "conta": "42 Diário da República",
+        "descricao": "Plano Geral de Contabilidade",
+        "subcontas": [
+            {
+                "conta": "69.\tProveitos",
+                "descricao": "e ganhos extraordinários"
+            },
+            {
+                "conta": "69.1",
+                "descricao": "Ganhos resultantes de catástrofes naturais"
+            },
+            {
+                "conta": "69.1.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "69.2",
+                "descricao": "Ganhos resultantes de convulsões políticas"
+            },
+            {
+                "conta": "69.2.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "69.3",
+                "descricao": "Ganhos resultantes de expropriações"
+            },
+            {
+                "conta": "69.3.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "69.4",
+                "descricao": "Ganhos resultantes de sinistros"
+            },
+            {
+                "conta": "69.4.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "69.5",
+                "descricao": "Subsídios"
+            },
+            {
+                "conta": "69.5.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "69.6",
+                "descricao": "Anulação de passivos não exigíveis"
+            },
+            {
+                "conta": "69.6.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "69.9",
+                "descricao": "Transferência para resultados extraordinários"
+            }
+        ]
+    },
+    {
+        "conta": "7",
+        "descricao": "Custos e perdas por natureza:",
+        "subcontas": [
+            {
+                "conta": "71.",
+                "descricao": "Custo das mercadorias vendidas e das matérias"
+            },
+            {
+                "conta": "72.",
+                "descricao": "Custos com o pessoal"
+            },
+            {
+                "conta": "73.",
+                "descricao": "Amortizações do exercício"
+            },
+            {
+                "conta": "74.",
+                "descricao": "......................................................................................."
+            },
+            {
+                "conta": "75.",
+                "descricao": "Outros custos e perdas operacionais"
+            },
+            {
+                "conta": "76.",
+                "descricao": "Custos e perdas financeiros gerais"
+            },
+            {
+                "conta": "77.",
+                "descricao": "Custos e perdas financeiros em filiais e associadas"
+            },
+            {
+                "conta": "78.",
+                "descricao": "Outros custos e perdas não operacionais"
+            },
+            {
+                "conta": "79.",
+                "descricao": "Custos e perdas extraordinárias"
+            },
+            {
+                "conta": "71.\tCusto",
+                "descricao": "das existências vendidas:"
+            },
+            {
+                "conta": "71.1",
+                "descricao": "Matérias-primas"
+            },
+            {
+                "conta": "71.1.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "71.2",
+                "descricao": "Matérias subsidiárias"
+            },
+            {
+                "conta": "71.2.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "71.3",
+                "descricao": "Materiais diversos"
+            },
+            {
+                "conta": "71.3.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "71.4",
+                "descricao": "Embalagens de consumo"
+            },
+            {
+                "conta": "71.4.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "71.5",
+                "descricao": "Outros materiais"
+            },
+            {
+                "conta": "71.5.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "71.9",
+                "descricao": "Transferência para resultados operacionais"
+            },
+            {
+                "conta": "72.\tCustos",
+                "descricao": "com o pessoal:"
+            },
+            {
+                "conta": "72.1",
+                "descricao": "Remunerações – Órgãos sociais"
+            },
+            {
+                "conta": "72.1.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "72.2",
+                "descricao": "Remunerações – Pessoal"
+            },
+            {
+                "conta": "72.2.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "72.3",
+                "descricao": "Pensões"
+            },
+            {
+                "conta": "72.3.1",
+                "descricao": "Órgãos sociais"
+            },
+            {
+                "conta": "72.3.2",
+                "descricao": "Pessoal"
+            },
+            {
+                "conta": "72.4",
+                "descricao": "Prémios para pensões"
+            },
+            {
+                "conta": "72.4.1",
+                "descricao": "Órgãos sociais"
+            },
+            {
+                "conta": "72.4.2",
+                "descricao": "Pessoal"
+            },
+            {
+                "conta": "72.5",
+                "descricao": "Encargos sobre remunerações"
+            },
+            {
+                "conta": "72.5.1",
+                "descricao": "Órgãos sociais"
+            },
+            {
+                "conta": "72.5.2",
+                "descricao": "Pessoal"
+            },
+            {
+                "conta": "72.6",
+                "descricao": "Seguros de acidentes de trabalho e doenças profis-"
+            },
+            {
+                "conta": "72.6.1",
+                "descricao": "Órgãos sociais"
+            },
+            {
+                "conta": "72.6.2",
+                "descricao": "Pessoal"
+            },
+            {
+                "conta": "72.7",
+                "descricao": "Formação"
+            },
+            {
+                "conta": "72.7.1",
+                "descricao": "Órgãos sociais"
+            },
+            {
+                "conta": "72.7.2",
+                "descricao": "Pessoal"
+            },
+            {
+                "conta": "72.8",
+                "descricao": "Outras despesas com o pessoal"
+            },
+            {
+                "conta": "72.8.1",
+                "descricao": "Órgãos sociais"
+            },
+            {
+                "conta": "72.8.2",
+                "descricao": "Pessoal"
+            },
+            {
+                "conta": "72.9",
+                "descricao": "Transferência para resultados operacionais"
+            },
+            {
+                "conta": "73.\tAmortizações",
+                "descricao": "do exercício:"
+            },
+            {
+                "conta": "73.1",
+                "descricao": "Imobilizações corpóreas"
+            },
+            {
+                "conta": "73.1.2",
+                "descricao": "Edifícios e outras construções"
+            },
+            {
+                "conta": "73.1.3",
+                "descricao": "Equipamento básico"
+            },
+            {
+                "conta": "73.1.4",
+                "descricao": "Equipamento de carga e transporte"
+            },
+            {
+                "conta": "73.1.5",
+                "descricao": "Equipamento administrativo"
+            },
+            {
+                "conta": "73.1.6",
+                "descricao": "Taras e vasilhame"
+            },
+            {
+                "conta": "73.1.9",
+                "descricao": "Outras imobilizações corpóreas"
+            },
+            {
+                "conta": "73.2",
+                "descricao": "Imobilizações incorpóreas"
+            },
+            {
+                "conta": "73.2.1",
+                "descricao": "Trespasses"
+            },
+            {
+                "conta": "73.2.2",
+                "descricao": "Despesas de investigação e desenvolvimento"
+            },
+            {
+                "conta": "73.2.3",
+                "descricao": "Propriedade industrial e outros direitos e"
+            },
+            {
+                "conta": "73.2.4",
+                "descricao": "Despesas de constituição"
+            },
+            {
+                "conta": "73.2.9",
+                "descricao": "Outras imobilizações incorpóreas"
+            },
+            {
+                "conta": "73.9",
+                "descricao": "Transferência para resultados operacionais"
+            },
+            {
+                "conta": "75.\tOutros",
+                "descricao": "custos e perdas operacionais:"
+            },
+            {
+                "conta": "75.1",
+                "descricao": "Sub-contratos"
+            },
+            {
+                "conta": "75.1.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "75.2",
+                "descricao": "Fomecimentos e serviços de terceiros"
+            },
+            {
+                "conta": "75.2.11",
+                "descricao": "Água"
+            },
+            {
+                "conta": "75.2.12",
+                "descricao": "Electricidade"
+            },
+            {
+                "conta": "75.2.13",
+                "descricao": "Combustíveis e outros fluídos"
+            },
+            {
+                "conta": "75.2.14",
+                "descricao": "Conservação e reparação"
+            },
+            {
+                "conta": "75.2.15",
+                "descricao": "Material de protecção segurança e conforto"
+            },
+            {
+                "conta": "75.2.16",
+                "descricao": "Ferramentas e utensílios de desgaste rápido"
+            },
+            {
+                "conta": "75.2.17",
+                "descricao": "Material de escritório"
+            },
+            {
+                "conta": "75.2.18",
+                "descricao": "Livros e documentação técnica"
+            },
+            {
+                "conta": "75.2.19",
+                "descricao": "Outros fornecimentos"
+            },
+            {
+                "conta": "75.2.19.1",
+                "descricao": "......................................................"
+            },
+            {
+                "conta": "75.2.20",
+                "descricao": "Comunicação"
+            },
+            {
+                "conta": "75.2.21",
+                "descricao": "Rendas e alugueres"
+            },
+            {
+                "conta": "75.2.22",
+                "descricao": "Seguros"
+            },
+            {
+                "conta": "75.2.23",
+                "descricao": "Deslocações e estadas"
+            },
+            {
+                "conta": "75.2.24",
+                "descricao": "Despesas de representação"
+            },
+            {
+                "conta": "75.2.26",
+                "descricao": "Conservação e reparação"
+            },
+            {
+                "conta": "75.2.27",
+                "descricao": "Vigilância e segurança"
+            },
+            {
+                "conta": "75.2.28",
+                "descricao": "Limpeza, higiene e conforto"
+            },
+            {
+                "conta": "75.2.29",
+                "descricao": "Publicidade e propaganda"
+            },
+            {
+                "conta": "75.2.30",
+                "descricao": "Contencioso e notariado"
+            },
+            {
+                "conta": "75.2.31",
+                "descricao": "Comissões a intermediários"
+            },
+            {
+                "conta": "75.2.32",
+                "descricao": "Assistência técnica"
+            },
+            {
+                "conta": "75.2.32.1",
+                "descricao": "Estrangeira"
+            },
+            {
+                "conta": "75.2.32.2",
+                "descricao": "Nacional"
+            },
+            {
+                "conta": "75.2.33",
+                "descricao": "Trabalhos executados no exterior"
+            },
+            {
+                "conta": "75.2.34",
+                "descricao": "Honorários e avenças"
+            },
+            {
+                "conta": "75.2.35",
+                "descricao": "Royalties"
+            },
+            {
+                "conta": "75.2.39",
+                "descricao": "Outros serviços"
+            },
+            {
+                "conta": "75.2.39.1",
+                "descricao": "......................................................"
+            },
+            {
+                "conta": "75.3",
+                "descricao": "Impostos"
+            },
+            {
+                "conta": "75.3.1",
+                "descricao": "Indirectos"
+            },
+            {
+                "conta": "75.3.1.1",
+                "descricao": "Imposto de selo"
+            },
+            {
+                "conta": "75.3.1.2",
+                "descricao": "IVA"
+            },
+            {
+                "conta": "75.3.1.9",
+                "descricao": "Outros impostos"
+            },
+            {
+                "conta": "75.3.2",
+                "descricao": "Directos"
+            },
+            {
+                "conta": "75.3.2.1",
+                "descricao": "Imposto de capitais"
+            },
+            {
+                "conta": "75.3.2.2",
+                "descricao": "Contribuição predial"
+            },
+            {
+                "conta": "75.3.2.9",
+                "descricao": "Outros impostos"
+            },
+            {
+                "conta": "75.4",
+                "descricao": "Despesas confidênciais"
+            },
+            {
+                "conta": "75.5",
+                "descricao": "Quotizações"
+            },
+            {
+                "conta": "75.6",
+                "descricao": "Ofertas e Amostras de existências"
+            },
+            {
+                "conta": "75.8",
+                "descricao": "Outros custos e perdas operacionais"
+            },
+            {
+                "conta": "75.9",
+                "descricao": "Transferências para resultados operacionais"
+            },
+            {
+                "conta": "76.\tCustos",
+                "descricao": "e perdas financeiros gerais"
+            },
+            {
+                "conta": "76.1",
+                "descricao": "Juros"
+            },
+            {
+                "conta": "76.1.1",
+                "descricao": "De empréstimos"
+            },
+            {
+                "conta": "76.1.1.1",
+                "descricao": "Bancários"
+            },
+            {
+                "conta": "76.1.1.2",
+                "descricao": "Obrigações"
+            },
+            {
+                "conta": "76.1.1.3",
+                "descricao": "Títulos de participação"
+            },
+            {
+                "conta": "76.1.2",
+                "descricao": "De descobertos bancários"
+            },
+            {
+                "conta": "76.1.3",
+                "descricao": "De mora relativos a dívidas a terceiros"
+            },
+            {
+                "conta": "76.1.4",
+                "descricao": "De desconto de títulos"
+            },
+            {
+                "conta": "76.2",
+                "descricao": "Diferenças de câmbio desfavoráveis"
+            },
+            {
+                "conta": "76.2.1",
+                "descricao": "Realizadas"
+            },
+            {
+                "conta": "76.2.2",
+                "descricao": "Não realizadas"
+            },
+            {
+                "conta": "76.3",
+                "descricao": "Descontos de pronto pagamento concedidos"
+            },
+            {
+                "conta": "76.3.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "76.4",
+                "descricao": "Amortizações de investimentos em imóveis"
+            },
+            {
+                "conta": "76.4.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "76.5",
+                "descricao": "Provisões para aplicações financeiras"
+            },
+            {
+                "conta": "76.5.1",
+                "descricao": "Investimentos financeiros"
+            },
+            {
+                "conta": "76.5.1.1",
+                "descricao": "Subsidiárias"
+            },
+            {
+                "conta": "76.5.1.2",
+                "descricao": "Associadas"
+            },
+            {
+                "conta": "76.5.1.3",
+                "descricao": "Outras empresas"
+            },
+            {
+                "conta": "76.5.1.4",
+                "descricao": "Fundos"
+            },
+            {
+                "conta": "76.5.1.9",
+                "descricao": "Outros investimentos"
+            },
+            {
+                "conta": "76.5.2",
+                "descricao": "Aplicações de tesouraria"
+            },
+            {
+                "conta": "76.5.2.1",
+                "descricao": "Títulos negociáveis"
+            },
+            {
+                "conta": "76.5.2.2",
+                "descricao": "Depósitos a prazo"
+            },
+            {
+                "conta": "76.5.2.3",
+                "descricao": "Outros depósitos"
+            },
+            {
+                "conta": "76.5.2.9",
+                "descricao": "Outros"
+            },
+            {
+                "conta": "76.6",
+                "descricao": "Perdas na alienação de aplicações financeiras"
+            },
+            {
+                "conta": "76.6.1",
+                "descricao": "Investimentos financeiros"
+            },
+            {
+                "conta": "76.6.1.1",
+                "descricao": "Subsidiárias"
+            },
+            {
+                "conta": "76.6.1.2",
+                "descricao": "Associadas"
+            },
+            {
+                "conta": "76.6.1.3",
+                "descricao": "Outras empresas"
+            },
+            {
+                "conta": "76.6.1.2",
+                "descricao": "Fundos[11]"
+            },
+            {
+                "conta": "76.6.1.9",
+                "descricao": "Outros investimentos"
+            },
+            {
+                "conta": "76.6.2",
+                "descricao": "Aplicações de títulos negociáveis"
+            },
+            {
+                "conta": "76.7",
+                "descricao": "Serviços bancários"
+            },
+            {
+                "conta": "76.7.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "76.9",
+                "descricao": "Transferência para resultados financeiros"
+            },
+            {
+                "conta": "77.\tCustos",
+                "descricao": "e perdas financeiros em filiais e associadas:"
+            },
+            {
+                "conta": "77.9",
+                "descricao": "Transferência para resultados financeiros"
+            },
+            {
+                "conta": "78.\tOutros",
+                "descricao": "custos e perdas não operacionais:"
+            },
+            {
+                "conta": "78.1",
+                "descricao": "Provisões do exercício"
+            },
+            {
+                "conta": "78.1.1",
+                "descricao": "Existências"
+            },
+            {
+                "conta": "78.1.1.1",
+                "descricao": "Matérias-primas subsidiárias e de"
+            },
+            {
+                "conta": "78.1.1.2",
+                "descricao": "Produtos e trabalhos em curso"
+            },
+            {
+                "conta": "78.1.1.3",
+                "descricao": "Produtos acabados e intermédios"
+            },
+            {
+                "conta": "78.1.1.4",
+                "descricao": "Sub-produtos, desperdícios, resí-"
+            },
+            {
+                "conta": "78.1.1.5",
+                "descricao": "Mercadorias"
+            },
+            {
+                "conta": "76.6.1.4",
+                "descricao": ""
+            }
+        ]
+    },
+    {
+        "conta": "44 Diário da República",
+        "descricao": "Plano Geral de Contabilidade",
+        "subcontas": [
+            {
+                "conta": "78.1.2",
+                "descricao": "Cobranças Duvidosas"
+            },
+            {
+                "conta": "78.1.2.1",
+                "descricao": "Clientes"
+            },
+            {
+                "conta": "78.1.2.2",
+                "descricao": "Clientes – títulos a receber"
+            },
+            {
+                "conta": "78.1.2.3",
+                "descricao": "Clientes – cobrança duvidosa"
+            },
+            {
+                "conta": "78.1.2.4",
+                "descricao": "Saldos devedores de fornecedores"
+            },
+            {
+                "conta": "78.1.2.5",
+                "descricao": "Participantes e participadas"
+            },
+            {
+                "conta": "78.1.2.6",
+                "descricao": "Dívidas do pessoal"
+            },
+            {
+                "conta": "78.1.2.9",
+                "descricao": "Outros saldos a receber"
+            },
+            {
+                "conta": "78.1.3",
+                "descricao": "Riscos e encargos"
+            },
+            {
+                "conta": "78.1.3.1",
+                "descricao": "Pensões"
+            },
+            {
+                "conta": "78.1.3.2",
+                "descricao": "Processos judiciais em curso"
+            },
+            {
+                "conta": "78.1.3.3",
+                "descricao": "Acidentes de trabalho"
+            },
+            {
+                "conta": "78.1.3.4",
+                "descricao": "Garantias dadas a clientes"
+            },
+            {
+                "conta": "78.1.3.9",
+                "descricao": "Outros riscos e encargos"
+            },
+            {
+                "conta": "78.2",
+                "descricao": "Amortizações extraordinárias"
+            },
+            {
+                "conta": "78.2.1",
+                "descricao": "Imobilizações Corpóreas"
+            },
+            {
+                "conta": "78.2.2",
+                "descricao": "Imobilizações Incorpóreas"
+            },
+            {
+                "conta": "78.3",
+                "descricao": "Perdas em imobilizações"
+            },
+            {
+                "conta": "78.3.1",
+                "descricao": "Venda de imobilizações corpóreas"
+            },
+            {
+                "conta": "78.3.2",
+                "descricao": "Venda de imobilizações incorpóreas"
+            },
+            {
+                "conta": "78.3.3",
+                "descricao": "Abates"
+            },
+            {
+                "conta": "78.3.9",
+                "descricao": "Outras"
+            },
+            {
+                "conta": "78.4",
+                "descricao": "Perdas em existências"
+            },
+            {
+                "conta": "78.4.1",
+                "descricao": "Quebras"
+            },
+            {
+                "conta": "78.5",
+                "descricao": "Dívidas incobráveis"
+            },
+            {
+                "conta": "78.6",
+                "descricao": "Multas e penalidades contratuais"
+            },
+            {
+                "conta": "78.6.1",
+                "descricao": "Fiscais"
+            },
+            {
+                "conta": "78.6.2",
+                "descricao": "Não fiscais"
+            },
+            {
+                "conta": "78.6.3",
+                "descricao": "Penalidades contratuais"
+            },
+            {
+                "conta": "78.7",
+                "descricao": "Custos de reestruturação"
+            },
+            {
+                "conta": "78.8",
+                "descricao": "Descontinuidade de operações"
+            },
+            {
+                "conta": "78.9",
+                "descricao": "Alterações de políticas contabilísticas"
+            },
+            {
+                "conta": "78.10",
+                "descricao": "Correcções relativas a exercícios anteriores"
+            },
+            {
+                "conta": "78.10.1",
+                "descricao": "Estimativa impostos"
+            },
+            {
+                "conta": "78.11",
+                "descricao": "Outros custos e perdas não operacionais"
+            },
+            {
+                "conta": "78.11.1",
+                "descricao": "Donativos"
+            },
+            {
+                "conta": "78.11.2",
+                "descricao": "Reembolso de subsídios à exploração"
+            },
+            {
+                "conta": "78.11.3",
+                "descricao": "Reembolso de subsídios a investimentos"
+            },
+            {
+                "conta": "78.19",
+                "descricao": "Transferência para resultados não operacionais"
+            },
+            {
+                "conta": "79.1",
+                "descricao": "Perdas resultantes de catástrofes naturais"
+            },
+            {
+                "conta": "79.1.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "79.2",
+                "descricao": "Perdas resultantes de convulsões políticas"
+            },
+            {
+                "conta": "79.2.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "79.3",
+                "descricao": "Perdas resultantes de expropriações"
+            },
+            {
+                "conta": "79.3.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "79.4",
+                "descricao": "Perdas resultantes de sinistros"
+            },
+            {
+                "conta": "79.4.1",
+                "descricao": "....................................................................."
+            },
+            {
+                "conta": "79.9",
+                "descricao": "Transferência para resultados extraordinários"
+            }
+        ]
+    },
+    {
+        "conta": "8",
+        "descricao": "Resultados:",
+        "subcontas": [
+            {
+                "conta": "81.",
+                "descricao": "Resultados transitados"
+            },
+            {
+                "conta": "82.",
+                "descricao": "Resultados operacionais"
+            },
+            {
+                "conta": "83.",
+                "descricao": "Resultados financeiros."
+            },
+            {
+                "conta": "84.",
+                "descricao": "Resultados em filiais e associadas"
+            },
+            {
+                "conta": "85.",
+                "descricao": "Resultados não operacionais"
+            },
+            {
+                "conta": "86.",
+                "descricao": "Resultados extraordinários"
+            },
+            {
+                "conta": "87.",
+                "descricao": "Imposto sobre os lucros"
+            },
+            {
+                "conta": "88.",
+                "descricao": "Resultado líquido do exercício"
+            },
+            {
+                "conta": "89.",
+                "descricao": "Dividendos antecipados"
+            },
+            {
+                "conta": "81.1",
+                "descricao": "Ano____"
+            },
+            {
+                "conta": "81.1.1",
+                "descricao": "Resultado do ano"
+            },
+            {
+                "conta": "81.1.2",
+                "descricao": "Aplicação de resultados"
+            },
+            {
+                "conta": "81.1.3",
+                "descricao": "Correcções de erros fundamentais, no"
+            },
+            {
+                "conta": "81.1.4",
+                "descricao": "Efeito das alterações de políticas"
+            },
+            {
+                "conta": "81.1.5",
+                "descricao": "Imposto relativo a correcções de erros"
+            },
+            {
+                "conta": "81.2",
+                "descricao": "Ano____"
+            },
+            {
+                "conta": "81.2.1",
+                "descricao": "Resultado do ano"
+            },
+            {
+                "conta": "81.2.2",
+                "descricao": "Aplicação de resultados"
+            },
+            {
+                "conta": "81.2.3",
+                "descricao": "Correcções de erros fundamentais, no"
+            },
+            {
+                "conta": "81.2.4",
+                "descricao": "Efeito das alterações de políticas"
+            },
+            {
+                "conta": "81.2.5",
+                "descricao": "Imposto relativo a correcções de erros"
+            },
+            {
+                "conta": "82.\tResultados",
+                "descricao": "operacionais:"
+            },
+            {
+                "conta": "82.1",
+                "descricao": "Vendas"
+            },
+            {
+                "conta": "82.2",
+                "descricao": "Prestações de serviço"
+            },
+            {
+                "conta": "82.3",
+                "descricao": "Outros proveitos operacionais"
+            },
+            {
+                "conta": "82.4",
+                "descricao": "Variação nos inventários de produtos acabados e"
+            },
+            {
+                "conta": "82.5",
+                "descricao": "Trabalhos para a própria empresa"
+            },
+            {
+                "conta": "82.6",
+                "descricao": "Custo das mercadorias vendidas e das matérias"
+            },
+            {
+                "conta": "82.7",
+                "descricao": "Custos com o pessoal"
+            },
+            {
+                "conta": "82.8",
+                "descricao": "Amortizações do exercício"
+            },
+            {
+                "conta": "82.9",
+                "descricao": "Outros custos operacionais"
+            },
+            {
+                "conta": "82.19",
+                "descricao": "Transferência para resultados líquidos"
+            },
+            {
+                "conta": "83.\tResultados",
+                "descricao": "financeiros:"
+            },
+            {
+                "conta": "83.1",
+                "descricao": "Proveitos e ganhos financeiros gerais"
+            },
+            {
+                "conta": "83.2",
+                "descricao": "Custos e perdas financeiros gerais"
+            },
+            {
+                "conta": "83.9",
+                "descricao": "Transferência para resultados líquidos"
+            },
+            {
+                "conta": "84.\tResultados",
+                "descricao": "financeiros em filiais e associadas:"
+            },
+            {
+                "conta": "84.1",
+                "descricao": "Proveitos e ganhos em filiais e associadas"
+            },
+            {
+                "conta": "84.2",
+                "descricao": "Custos e perdas em filiais e associadas"
+            },
+            {
+                "conta": "84.9",
+                "descricao": "Transferência para resultados líquidos"
+            },
+            {
+                "conta": "85.\tResultados",
+                "descricao": "não operacionais:"
+            },
+            {
+                "conta": "85.1",
+                "descricao": "Proveitos e ganhos não operacionais"
+            },
+            {
+                "conta": "85.2",
+                "descricao": "Custos e perdas não operacionais"
+            },
+            {
+                "conta": "85.9",
+                "descricao": "Transferência para resultados líquidos"
+            },
+            {
+                "conta": "86.\tResultados",
+                "descricao": "extraordinários:"
+            },
+            {
+                "conta": "86.1",
+                "descricao": "Proveitos e ganhos extraordinários"
+            },
+            {
+                "conta": "86.2",
+                "descricao": "Custos e perdas extraordinários"
+            },
+            {
+                "conta": "86.9",
+                "descricao": "Transferência para resultados líquidos"
+            },
+            {
+                "conta": "87.\tImpostos",
+                "descricao": "sobre os lucros:"
+            },
+            {
+                "conta": "87.1",
+                "descricao": "Imposto sobre os resultados correntes"
+            },
+            {
+                "conta": "87.2",
+                "descricao": "Imposto sobre os resultados extraordinários"
+            },
+            {
+                "conta": "87.9",
+                "descricao": "Transferência para resultados líquidos"
+            },
+            {
+                "conta": "88.\tResultados",
+                "descricao": "líquidos do exercício:"
+            },
+            {
+                "conta": "88.1",
+                "descricao": "Resultados operacionais"
+            },
+            {
+                "conta": "88.2",
+                "descricao": "Resultados financeiros gerais"
+            },
+            {
+                "conta": "88.3",
+                "descricao": "Resultados em filiais e associadas"
+            },
+            {
+                "conta": "88.4",
+                "descricao": "Resultados não operacionais"
+            },
+            {
+                "conta": "88.5",
+                "descricao": "Imposto sobre os resultados correntes"
+            },
+            {
+                "conta": "88.6",
+                "descricao": "Resultados extraordinários"
+            },
+            {
+                "conta": "88.7",
+                "descricao": "Imposto sobre os resultados extraordinários"
+            },
+            {
+                "conta": "88.9",
+                "descricao": "Transferência para resultados transitados"
+            },
+            {
+                "conta": "89.",
+                "descricao": "Dividendos antecipados:"
+            },
+            {
+                "conta": "89.9",
+                "descricao": "Transferência para resultados transitados."
+            }
+        ]
+    }
+]

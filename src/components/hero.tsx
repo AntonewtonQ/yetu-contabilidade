@@ -65,6 +65,9 @@ export default function HeroWithHeader() {
             <Link href="/jogo" className="hover:text-yellow-300 transition">
               Quiz
             </Link>
+            <Link href="/pgc" className="hover:text-yellow-300 transition">
+              PGC
+            </Link>
             <Link href="#faq" className="hover:text-yellow-400 transition">
               FAQs
             </Link>
@@ -93,6 +96,9 @@ export default function HeroWithHeader() {
             </Link>
             <Link href="/jogo" className="block text-black">
               Quiz
+            </Link>
+            <Link href="/pgc" className="block text-black">
+              PGC
             </Link>
             <Link href="#faq" className="block text-black">
               FAQs
