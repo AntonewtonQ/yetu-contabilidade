@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 interface Conta {
   conta: string;
   descricao: string;
@@ -12,17 +10,20 @@ interface PgcTreeProps {
 
 export default function PgcTree({ data }: PgcTreeProps) {
   return (
-    <ul className="list-none">
+    <ul className="list-none pl-2">
       {data.map((conta) => (
-        <li key={conta.conta} className="mb-2">
-          <Link
-            href={`/pgc/${conta.conta}`}
-            className="text-blue-500 hover:underline"
-          >
-            {conta.conta} - {conta.descricao}
-          </Link>
+        <li key={conta.conta} className="mb-1">
+          <div className="flex items-start space-x-2">
+            <div className="w-1 h-full border-l-2 border-gray-300"></div>
+            <div className="bg-gray-100 rounded-md px-2 py-1 shadow-sm">
+              <span className="font-semibold text-sm text-gray-800">
+                {conta.conta}
+              </span>{" "}
+              <span className="text-gray-600 text-sm">– {conta.descricao}</span>
+            </div>
+          </div>
           {conta.subcontas && conta.subcontas.length > 0 && (
-            <div className="ml-4 border-l pl-4">
+            <div className="ml-4 mt-1">
               <PgcTree data={conta.subcontas} />
             </div>
           )}
